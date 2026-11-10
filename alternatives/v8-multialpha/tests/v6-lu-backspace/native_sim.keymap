@@ -1,0 +1,5 @@
+#include <dt-bindings/zmk/keys.h>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/kscan_mock.h>
+/ { behaviors { fence_finish: fence_finish { compatible = "custom,behavior-fence-finish"; #binding-cells = <0>; }; }; combos { compatible = "zmk,combos"; bspc { key-positions = <1 2>; bindings = <&kp BSPC>; timeout-ms = <50>; layers = <0>; }; }; keymap { compatible = "zmk,keymap"; base { bindings = <&kp J &kp L &kp U &kp A>; }; }; };
+ &kscan { events = <ZMK_MOCK_PRESS(0,1,10) ZMK_MOCK_PRESS(1,0,10) ZMK_MOCK_RELEASE(0,1,10) ZMK_MOCK_RELEASE(1,0,100)>; };

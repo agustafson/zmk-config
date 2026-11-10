@@ -1,0 +1,3868 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1845" height="2475" viewBox="0 0 1845 2475" class="keymap">
+<ns0:rect width="100%" height="100%" fill="#f4f6fa" /><ns0:style>/* inherit to force styles through use tags */
+svg path {
+    fill: inherit;
+}
+
+/* font and background color specifications */
+svg.keymap {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    fill: #24292e;
+}
+
+/* default key styling */
+rect.key {
+    fill: #f6f8fa;
+}
+
+rect.key, rect.combo {
+    stroke: #c9cccf;
+    stroke-width: 1;
+}
+
+/* default key side styling, only used is draw_key_sides is set */
+rect.side {
+    filter: brightness(90%);
+}
+
+/* color accent for combo boxes */
+rect.combo, rect.combo-separate {
+    fill: #cdf;
+}
+
+/* color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #fdd;
+}
+
+/* color accent for ghost (optional) keys */
+rect.ghost, rect.combo.ghost {
+    stroke-dasharray: 4, 4;
+    stroke-width: 2;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+/* styling for layer labels */
+text.label {
+    font-weight: bold;
+    text-anchor: start;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for optional footer */
+text.footer {
+    text-anchor: end;
+    dominant-baseline: auto;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for combo tap, and key non-tap label text */
+text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
+    font-size: 11px;
+}
+
+text.hold, text.bl, text.br {
+    text-anchor: middle;
+    dominant-baseline: auto;
+}
+
+text.shifted, text.tl, text.tr {
+    text-anchor: middle;
+    dominant-baseline: hanging;
+}
+
+text.left, text.tl, text.bl {
+    text-anchor: start;
+}
+
+text.right, text.tr, text.br {
+    text-anchor: end;
+}
+
+text.layer-activator {
+    text-decoration: underline;
+}
+
+/* styling for hold/shifted label text in combo box */
+text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right {
+    font-size: 8px;
+}
+
+/* lighter symbol for transparent keys */
+text.trans {
+    fill: #7b7e81;
+}
+
+/* styling for combo dendrons */
+path.combo {
+    stroke-width: 1;
+    stroke: gray;
+    fill: none;
+}
+
+/* Start Tabler Icons Cleanup */
+/* cannot use height/width with glyphs */
+.icon-tabler &gt; path {
+    fill: inherit;
+    stroke: inherit;
+    stroke-width: 2;
+}
+/* hide tabler's default box */
+.icon-tabler &gt; path[stroke="none"][fill="none"] {
+    visibility: hidden;
+}
+/* End Tabler Icons Cleanup */
+
+svg.keymap { background-color: #f4f6fa; font-family: DejaVu Sans, sans-serif; font-size: 14px; fill: #18253c; }
+rect.key { fill: #ffffff; stroke: #c6d0df; stroke-width: 1; }
+text.label { font-size: 19px; font-weight: 700; fill: #18253c; }
+text.hold { fill: #23699a; font-size: 10px; }
+text.shifted { fill: #927031; font-size: 10px; }
+text.footer { fill: #596b83; font-size: 12px; }
+rect.combo { fill: #123756; stroke: #123756; }
+text.combo { fill: #ffffff; font-size: 13px; }
+text.combo.hold, text.combo.shifted { fill: #dceaf6; font-size: 8px; }
+rect.held { fill: #bce5db; stroke: #429a87; }
+rect.ghost { fill: #e8edf4; stroke: #d0d9e5; }
+text.ghost { fill: #77869a; }
+path.combo { stroke: #759cb7; stroke-width: 1.5; fill: none; }
+
+text.label, text.footer { stroke: none; }
+</ns0:style>
+<ns0:g transform="translate(32, 0)" class="layer-Base">
+<ns0:text x="0" y="35" class="label" id="Base">Base</ns0:text>
+<ns0:g transform="translate(0, 70)">
+<ns0:g transform="translate(78, 113) rotate(-10.0)" class="key keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Q</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(144, 62) rotate(-4.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">W</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 28)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">F</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 56)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">P</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 65)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">B</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 65)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">J</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 56)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">L</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 28)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">U</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(706, 62) rotate(4.0)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Y</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(773, 113) rotate(10.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">'</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(87, 168) rotate(-10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">A</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Ctrl</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(148, 118) rotate(-4.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">R</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Opt</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 84)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">S</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Shift</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 112)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">T</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Cmd</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 121)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">G</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 121)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">M</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 112)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">N</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Cmd</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 84)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">E</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Shift</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(703, 118) rotate(4.0)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">I</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Opt</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(764, 168) rotate(10.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">O</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Ctrl</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(34, 209) rotate(-10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Hyper</ns0:text>
+<ns0:text x="0" y="20" class="key hold">4 mods</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(97, 223) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Z</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(152, 174) rotate(-4.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">X</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 140)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">C</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 168)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">D</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 177)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">V</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 177)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">K</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 168)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">H</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 140)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">,</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted">;</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(699, 174) rotate(4.0)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">.</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted">:</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(754, 223) rotate(10.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">?</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted">!</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(817, 209) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Meh</ns0:text>
+<ns0:text x="0" y="20" class="key hold">3 mods</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(255, 236)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Tab</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(320, 245) rotate(15.0)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Space</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Nav</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted"><ns0:tspan style="font-size: 8.80px">Sentence</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(381, 270) rotate(30.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Enter</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Fn</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(470, 270) rotate(-30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Numword</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Num</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(531, 245) rotate(-15.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Magic</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Shift</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted"><ns0:tspan style="font-size: 7.80px">Caps Word</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(596, 236)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Bspc</ns0:text>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:text x="32" y="415" class="label" id="Combos">Combos</ns0:text>
+<ns0:g transform="translate(32, 380)" class="layer-combopos-0">
+<ns0:g transform="translate(0, 70)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">Esc</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key held keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key held keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(489, 380)" class="layer-combopos-1">
+<ns0:g transform="translate(0, 70)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">`</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key held keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key held keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 380)" class="layer-combopos-2">
+<ns0:g transform="translate(0, 70)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">@</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key held keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key held keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(1404, 380)" class="layer-combopos-3">
+<ns0:g transform="translate(0, 70)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">Fence</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key held keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key held keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key held keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 663)" class="layer-combopos-4">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">$</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key held keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key held keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(489, 663)" class="layer-combopos-5">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">Tab</ns0:text>
+<ns0:text x="0" y="20" class="key  combo-separate hold"><ns0:tspan style="font-size: 7.80px">Shift+Opt</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key held keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key held keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 663)" class="layer-combopos-6">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="20" class="key  combo-separate hold"><ns0:tspan style="font-size: 7.80px">Shift+Cmd</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key held keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key held keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(1404, 663)" class="layer-combopos-7">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">=</ns0:text>
+<ns0:text x="0" y="20" class="key  combo-separate hold">Opt+Cmd</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key held keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key held keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 912)" class="layer-combopos-8">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="20" class="key  combo-separate hold"><ns0:tspan style="font-size: 7.80px">S+Opt+Cmd</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key held keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key held keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key held keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(489, 912)" class="layer-combopos-9">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">%</ns0:text>
+<ns0:text x="0" y="20" class="key  combo-separate hold"><ns0:tspan style="font-size: 8.80px">Ctrl+Opt</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key held keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key held keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 912)" class="layer-combopos-10">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">Copy</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key held keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key held keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(1404, 912)" class="layer-combopos-11">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">Paste</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key held keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key held keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 1161)" class="layer-combopos-12">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">Cut</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key held keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key held keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(489, 1161)" class="layer-combopos-13">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">\</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key held keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key held keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key held keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 1161)" class="layer-combopos-14">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">Undo</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key held keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key held keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(1404, 1161)" class="layer-combopos-15">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">#</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key held keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key held keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 1410)" class="layer-combopos-16">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">*</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key held keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key held keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(489, 1410)" class="layer-combopos-17">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">+</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key held keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key held keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 1410)" class="layer-combopos-18">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">&amp;</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key held keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key held keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(1404, 1410)" class="layer-combopos-19">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">(</ns0:text>
+<ns0:text x="0" y="20" class="key  combo-separate hold"><ns0:tspan style="font-size: 7.80px">Shift+Cmd</ns0:tspan></ns0:text>
+<ns0:text x="0" y="-20" class="key  combo-separate shifted">&lt;</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key held keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key held keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 1658)" class="layer-combopos-20">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">)</ns0:text>
+<ns0:text x="0" y="20" class="key  combo-separate hold"><ns0:tspan style="font-size: 7.80px">Shift+Opt</ns0:tspan></ns0:text>
+<ns0:text x="0" y="-20" class="key  combo-separate shifted">&gt;</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key held keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key held keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(489, 1658)" class="layer-combopos-21">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">-</ns0:text>
+<ns0:text x="0" y="20" class="key  combo-separate hold">Cmd+Opt</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key held keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key held keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 1658)" class="layer-combopos-22">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">_</ns0:text>
+<ns0:text x="0" y="20" class="key  combo-separate hold"><ns0:tspan style="font-size: 7.80px">S+Opt+Cmd</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key held keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key held keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key held keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(1404, 1658)" class="layer-combopos-23">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">^</ns0:text>
+<ns0:text x="0" y="20" class="key  combo-separate hold"><ns0:tspan style="font-size: 8.80px">Opt+Ctrl</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key held keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key held keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 1907)" class="layer-combopos-24">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">[</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key held keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key held keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(489, 1907)" class="layer-combopos-25">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">]</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key held keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key held keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 1907)" class="layer-combopos-26">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">/</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key held keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key held keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(1404, 1907)" class="layer-combopos-27">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">|</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key held keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key held keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key held keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 2156)" class="layer-combopos-28">
+<ns0:g transform="translate(0, 35)">
+<ns0:g transform="translate(30, 28)" class="key  combo-separate keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key  combo-separate" />
+<ns0:text x="0" y="0" class="key  combo-separate tap">~</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(39, 116) rotate(-10.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(72, 90) rotate(-4.0)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 73)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 87)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 91)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 91)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 87)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 73)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(353, 90) rotate(4.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(387, 116) rotate(10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(44, 143) rotate(-10.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(74, 118) rotate(-4.0)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 101)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 115)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 119)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 120)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 115)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 101)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(351, 118) rotate(4.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(382, 143) rotate(10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(17, 163) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(49, 171) rotate(-10.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(76, 146) rotate(-4.0)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(106, 129)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(136, 143)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(165, 147)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(260, 148)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(290, 143)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(319, 129)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(349, 146) rotate(4.0)" class="key held keypos-30">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(377, 171) rotate(10.0)" class="key held keypos-31">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key held" />
+</ns0:g>
+<ns0:g transform="translate(408, 163) rotate(10.0)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(127, 177)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(160, 182) rotate(15.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(190, 194) rotate(30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(235, 194) rotate(-30.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(265, 182) rotate(-15.0)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+<ns0:g transform="translate(298, 177)" class="key keypos-38">
+<ns0:rect rx="6" ry="6" x="-12" y="-11" width="24" height="22" class="key" />
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:text x="1813.0" y="2440.0" class="footer">TOTEM / Mac / Colemak-DH / horizontal chords</ns0:text></ns0:svg>

@@ -1,0 +1,29 @@
+#include <dt-bindings/zmk/keys.h>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/kscan_mock.h>
+/ {
+    behaviors {
+        hm_r: home_mod_right {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <230>;
+            quick-tap-ms = <175>;
+            hold-trigger-key-positions = <2>;
+            hold-trigger-on-release;
+            bindings = <&kp>, <&kp>;
+        };
+        fence: fence { compatible = "custom,behavior-fence"; #binding-cells = <0>; };
+        fence_finish: fence_finish { compatible = "custom,behavior-fence-finish"; #binding-cells = <0>; };
+    };
+    keymap {
+        compatible = "zmk,keymap";
+        base { bindings = <&hm_r RGUI E &hm_r RSHIFT H &fence &kp A>; };
+    };
+};
+&kscan {
+    events = <ZMK_MOCK_PRESS(0,0,10) ZMK_MOCK_PRESS(0,1,10)
+              ZMK_MOCK_PRESS(1,0,10) ZMK_MOCK_RELEASE(1,0,2)
+              ZMK_MOCK_RELEASE(0,1,2) ZMK_MOCK_RELEASE(0,0,150)
+              ZMK_MOCK_PRESS(1,1,2) ZMK_MOCK_RELEASE(1,1,10)>;
+};

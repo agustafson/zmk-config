@@ -1,0 +1,480 @@
+layout:
+  qmk_info_json: draw/totem-layout.json
+layers:
+  Base:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - t: A
+    h: Ctrl
+  - t: R
+    h: Opt
+  - t: S
+    h: Shift
+  - t: T
+    h: Cmd
+  - G
+  - M
+  - t: N
+    h: Cmd
+  - t: E
+    h: Shift
+  - t: I
+    h: Opt
+  - t: O
+    h: Ctrl
+  - t: Hyper
+    h: 4 mods
+  - t: Z
+    h: Button
+  - t: X
+    h: Opt
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - t: .
+    h: Opt
+  - t: /
+    h: Button
+  - t: Meh
+    h: 3 mods
+  - t: Esc
+    h: Media
+  - t: Space
+    h: Nav
+  - t: Tab
+    h: Mouse
+  - t: Enter
+    h: Sym
+  - t: Bspc
+    h: Num
+  - t: Esc
+    h: Fun
+  Extra:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - t: A
+    h: Ctrl
+  - t: S
+    h: Opt
+  - t: D
+    h: Shift
+  - t: F
+    h: Cmd
+  - G
+  - H
+  - t: J
+    h: Cmd
+  - t: K
+    h: Shift
+  - t: L
+    h: Opt
+  - t: ''''
+    h: Ctrl
+  - t: Hyper
+    h: 4 mods
+  - t: Z
+    h: Button
+  - t: X
+    h: Opt
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - t: .
+    h: Opt
+  - t: /
+    h: Button
+  - t: Meh
+    h: 3 mods
+  - t: Esc
+    h: Media
+  - t: Space
+    h: Nav
+  - t: Tab
+    h: Mouse
+  - t: Enter
+    h: Sym
+  - t: Bspc
+    h: Num
+  - t: Esc
+    h: Fun
+  Tap:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - A
+  - R
+  - S
+  - T
+  - G
+  - M
+  - N
+  - E
+  - I
+  - O
+  - t: Hyper
+    h: 4 mods
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - ','
+  - .
+  - /
+  - t: Meh
+    h: 3 mods
+  - Esc
+  - Space
+  - Tab
+  - Enter
+  - Bspc
+  - Esc
+  Button:
+  - Undo
+  - Cut
+  - Copy
+  - Paste
+  - Redo
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
+  - Ctrl
+  - Opt
+  - Shift
+  - Cmd
+  - ''
+  - ''
+  - Cmd
+  - Shift
+  - Opt
+  - Ctrl
+  - t: Hyper
+    h: 4 mods
+  - t: Undo
+    type: held
+  - Cut
+  - Copy
+  - Paste
+  - Redo
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
+  - t: Meh
+    h: 3 mods
+  - Middle click
+  - Left click
+  - Right click
+  - Right click
+  - Left click
+  - Middle click
+  Nav:
+  - Boot 2×
+  - Tap 2×
+  - Extra 2×
+  - Base 2×
+  - ''
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
+  - Ctrl
+  - Opt
+  - Shift
+  - Cmd
+  - ''
+  - t: Caps Word
+    s: CAPS
+  - Left
+  - Down
+  - Up
+  - Right
+  - t: Hyper
+    h: 4 mods
+  - ''
+  - Opt
+  - Lock Num 2×
+  - Lock Nav 2×
+  - ''
+  - '`'
+  - Line start
+  - PgDn
+  - PgUp
+  - Line end
+  - t: Meh
+    h: 3 mods
+  - ''
+  - t: Nav
+    type: held
+  - ''
+  - Enter
+  - Bspc
+  - Esc
+  Mouse:
+  - Boot 2×
+  - Tap 2×
+  - Extra 2×
+  - Base 2×
+  - ''
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
+  - Ctrl
+  - Opt
+  - Shift
+  - Cmd
+  - ''
+  - ''
+  - Mouse Left
+  - Mouse Down
+  - Mouse Up
+  - Mouse Right
+  - t: Hyper
+    h: 4 mods
+  - ''
+  - Opt
+  - Lock Sym 2×
+  - Lock Mouse 2×
+  - ''
+  - ''
+  - Scroll Left
+  - Scroll Down
+  - Scroll Up
+  - Scroll Right
+  - t: Meh
+    h: 3 mods
+  - ''
+  - ''
+  - t: Mouse
+    type: held
+  - Right click
+  - Left click
+  - Middle click
+  Media:
+  - Boot 2×
+  - Tap 2×
+  - Extra 2×
+  - Base 2×
+  - ''
+  - RGB TOG
+  - RGB EFF
+  - RGB HUI
+  - RGB SAI
+  - RGB BRI
+  - Ctrl
+  - Opt
+  - Shift
+  - Cmd
+  - ''
+  - EP TOG
+  - Prev track
+  - Vol -
+  - Vol +
+  - Next track
+  - t: Hyper
+    h: 4 mods
+  - ''
+  - Opt
+  - Lock Fun 2×
+  - Lock Media 2×
+  - ''
+  - t: OUT TOG
+    s: OUT USB
+  - t: BT
+    h: '0'
+    s: '&u_macro_u_bt_sel_0'
+  - t: BT
+    h: '1'
+    s: '&u_macro_u_bt_sel_1'
+  - t: BT
+    h: '2'
+    s: '&u_macro_u_bt_sel_2'
+  - t: BT
+    h: '3'
+    s: '&u_macro_u_bt_sel_3'
+  - t: Meh
+    h: 3 mods
+  - t: Media
+    type: held
+  - ''
+  - ''
+  - STOP
+  - Play/Pause
+  - Mute
+  Num:
+  - '['
+  - '7'
+  - '8'
+  - '9'
+  - ']'
+  - ''
+  - Base 2×
+  - Extra 2×
+  - Tap 2×
+  - Boot 2×
+  - ;
+  - '4'
+  - '5'
+  - '6'
+  - '='
+  - ''
+  - Cmd
+  - Shift
+  - Opt
+  - Ctrl
+  - t: Hyper
+    h: 4 mods
+  - '`'
+  - '1'
+  - '2'
+  - '3'
+  - \
+  - ''
+  - Lock Num 2×
+  - Lock Nav 2×
+  - Opt
+  - ''
+  - t: Meh
+    h: 3 mods
+  - .
+  - '0'
+  - '-'
+  - ''
+  - t: Num
+    type: held
+  - ''
+  Sym:
+  - '{'
+  - '&'
+  - '*'
+  - (
+  - '}'
+  - ''
+  - Base 2×
+  - Extra 2×
+  - Tap 2×
+  - Boot 2×
+  - ':'
+  - $
+  - '%'
+  - ^
+  - +
+  - ''
+  - Cmd
+  - Shift
+  - Opt
+  - Ctrl
+  - t: Hyper
+    h: 4 mods
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - ''
+  - Lock Sym 2×
+  - Lock Mouse 2×
+  - Opt
+  - ''
+  - t: Meh
+    h: 3 mods
+  - (
+  - )
+  - _
+  - t: Sym
+    type: held
+  - ''
+  - ''
+  Fun:
+  - F12
+  - F7
+  - F8
+  - F9
+  - '`'
+  - ''
+  - Base 2×
+  - Extra 2×
+  - Tap 2×
+  - Boot 2×
+  - F11
+  - F4
+  - F5
+  - F6
+  - Fence
+  - ''
+  - Cmd
+  - Shift
+  - Opt
+  - Ctrl
+  - t: Hyper
+    h: 4 mods
+  - F10
+  - F1
+  - F2
+  - F3
+  - ''
+  - ''
+  - Lock Fun 2×
+  - Lock Media 2×
+  - Opt
+  - ''
+  - t: Meh
+    h: 3 mods
+  - APP
+  - Space
+  - Tab
+  - ''
+  - ''
+  - t: Fun
+    type: held
+combos:
+- p:
+  - 2
+  - 3
+  k: '`'
+  l:
+  - Base
+- p:
+  - 1
+  - 2
+  - 3
+  k: Fence
+  l:
+  - Base

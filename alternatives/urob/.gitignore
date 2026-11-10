@@ -1,0 +1,9 @@
+.venv/
+.west/
+build/
+zmk/
+/zephyr/*
+!/zephyr/module.yml
+modules/
+__pycache__/
+*.pyc

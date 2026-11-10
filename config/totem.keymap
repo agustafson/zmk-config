@@ -1,0 +1,20 @@
+// Copyright 2022 Manna Harbour
+// https://github.com/manna-harbour/miryoku
+
+#include "miryoku/custom_config.h"
+#include "miryoku/mapping/38/totem.h"
+#include "miryoku/miryoku.dtsi"
+
+/ {
+  behaviors {
+    fence: fence { compatible = "custom,behavior-fence"; #binding-cells = <0>; };
+    combo_fence: combo_fence { compatible = "custom,behavior-combo-fence"; #binding-cells = <0>; };
+    direct_fence: direct_fence { compatible = "custom,behavior-direct-fence"; #binding-cells = <0>; };
+    fence_finish: fence_finish { compatible = "custom,behavior-fence-finish"; #binding-cells = <0>; };
+  };
+  combos {
+    compatible = "zmk,combos";
+    combo_grave { key-positions = <2 3>; bindings = <&kp GRAVE>; timeout-ms = <50>; layers = <0>; };
+    combo_fence { key-positions = <1 2 3>; bindings = <&direct_fence>; timeout-ms = <50>; layers = <0>; };
+  };
+};

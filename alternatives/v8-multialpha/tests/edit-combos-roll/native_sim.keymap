@@ -1,0 +1,21 @@
+#include <dt-bindings/zmk/keys.h>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/kscan_mock.h>
+/ {
+  behaviors {
+    fence: fence { compatible = "custom,behavior-fence"; #binding-cells = <0>; };
+    fence_finish: fence_finish { compatible = "custom,behavior-fence-finish"; #binding-cells = <0>; };
+  };
+  combos {
+    compatible = "zmk,combos";
+    undo { key-positions = <0 1>; bindings = <&kp LG(Z)>; timeout-ms = <40>; require-prior-idle-ms = <100>; layers = <0>; };
+    copy { key-positions = <1 2>; bindings = <&kp LG(C)>; timeout-ms = <40>; require-prior-idle-ms = <100>; layers = <0>; };
+    paste { key-positions = <2 3>; bindings = <&kp LG(V)>; timeout-ms = <40>; require-prior-idle-ms = <100>; layers = <0>; };
+  };
+  keymap { compatible = "zmk,keymap"; base { bindings = <&kp Z &kp X &kp C &kp V>; }; };
+};
+&kscan {
+  events = <ZMK_MOCK_PRESS(1,1,10) ZMK_MOCK_RELEASE(1,1,10)
+            ZMK_MOCK_PRESS(0,1,10) ZMK_MOCK_PRESS(1,0,10)
+            ZMK_MOCK_RELEASE(0,1,10) ZMK_MOCK_RELEASE(1,0,180)>;
+};

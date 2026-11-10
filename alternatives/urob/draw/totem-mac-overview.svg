@@ -1,0 +1,1287 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1829" height="1298" viewBox="0 0 1829 1298" class="keymap">
+<ns0:rect width="100%" height="100%" fill="#f4f6fa" /><ns0:style>/* inherit to force styles through use tags */
+svg path {
+    fill: inherit;
+}
+
+/* font and background color specifications */
+svg.keymap {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+    fill: #24292e;
+}
+
+/* default key styling */
+rect.key {
+    fill: #f6f8fa;
+}
+
+rect.key, rect.combo {
+    stroke: #c9cccf;
+    stroke-width: 1;
+}
+
+/* default key side styling, only used is draw_key_sides is set */
+rect.side {
+    filter: brightness(90%);
+}
+
+/* color accent for combo boxes */
+rect.combo, rect.combo-separate {
+    fill: #cdf;
+}
+
+/* color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #fdd;
+}
+
+/* color accent for ghost (optional) keys */
+rect.ghost, rect.combo.ghost {
+    stroke-dasharray: 4, 4;
+    stroke-width: 2;
+}
+
+text {
+    text-anchor: middle;
+    dominant-baseline: middle;
+}
+
+/* styling for layer labels */
+text.label {
+    font-weight: bold;
+    text-anchor: start;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for optional footer */
+text.footer {
+    text-anchor: end;
+    dominant-baseline: auto;
+    stroke: white;
+    stroke-width: 4;
+    paint-order: stroke;
+}
+
+/* styling for combo tap, and key non-tap label text */
+text.combo, text.hold, text.shifted, text.left, text.right, text.tl, text.tr, text.bl, text.br {
+    font-size: 11px;
+}
+
+text.hold, text.bl, text.br {
+    text-anchor: middle;
+    dominant-baseline: auto;
+}
+
+text.shifted, text.tl, text.tr {
+    text-anchor: middle;
+    dominant-baseline: hanging;
+}
+
+text.left, text.tl, text.bl {
+    text-anchor: start;
+}
+
+text.right, text.tr, text.br {
+    text-anchor: end;
+}
+
+text.layer-activator {
+    text-decoration: underline;
+}
+
+/* styling for hold/shifted label text in combo box */
+text.combo.hold, text.combo.shifted, text.combo.left, text.combo.right {
+    font-size: 8px;
+}
+
+/* lighter symbol for transparent keys */
+text.trans {
+    fill: #7b7e81;
+}
+
+/* styling for combo dendrons */
+path.combo {
+    stroke-width: 1;
+    stroke: gray;
+    fill: none;
+}
+
+/* Start Tabler Icons Cleanup */
+/* cannot use height/width with glyphs */
+.icon-tabler &gt; path {
+    fill: inherit;
+    stroke: inherit;
+    stroke-width: 2;
+}
+/* hide tabler's default box */
+.icon-tabler &gt; path[stroke="none"][fill="none"] {
+    visibility: hidden;
+}
+/* End Tabler Icons Cleanup */
+
+svg.keymap { background-color: #f4f6fa; font-family: DejaVu Sans, sans-serif; font-size: 14px; fill: #18253c; }
+rect.key { fill: #ffffff; stroke: #c6d0df; stroke-width: 1; }
+text.label { font-size: 19px; font-weight: 700; fill: #18253c; }
+text.hold { fill: #23699a; font-size: 10px; }
+text.shifted { fill: #927031; font-size: 10px; }
+text.footer { fill: #596b83; font-size: 12px; }
+rect.combo { fill: #123756; stroke: #123756; }
+text.combo { fill: #ffffff; font-size: 13px; }
+text.combo.hold, text.combo.shifted { fill: #dceaf6; font-size: 8px; }
+rect.held { fill: #bce5db; stroke: #429a87; }
+rect.ghost { fill: #e8edf4; stroke: #d0d9e5; }
+text.ghost { fill: #77869a; }
+path.combo { stroke: #759cb7; stroke-width: 1.5; fill: none; }
+
+text.label, text.footer { stroke: none; }
+</ns0:style>
+<ns0:g transform="translate(32, 0)" class="layer-Base">
+<ns0:text x="0" y="35" class="label" id="Base">Base</ns0:text>
+<ns0:g transform="translate(0, 70)">
+<ns0:g transform="translate(78, 113) rotate(-10.0)" class="key keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Q</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(144, 62) rotate(-4.0)" class="key keypos-1">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">W</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 28)" class="key keypos-2">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">F</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 56)" class="key keypos-3">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">P</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 65)" class="key keypos-4">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">B</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 65)" class="key keypos-5">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">J</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 56)" class="key keypos-6">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">L</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 28)" class="key keypos-7">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">U</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(706, 62) rotate(4.0)" class="key keypos-8">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Y</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(773, 113) rotate(10.0)" class="key keypos-9">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">'</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(87, 168) rotate(-10.0)" class="key keypos-10">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">A</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Ctrl</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(148, 118) rotate(-4.0)" class="key keypos-11">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">R</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Opt</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 84)" class="key keypos-12">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">S</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Shift</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 112)" class="key keypos-13">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">T</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Cmd</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 121)" class="key keypos-14">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">G</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 121)" class="key keypos-15">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">M</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 112)" class="key keypos-16">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">N</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Cmd</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 84)" class="key keypos-17">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">E</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Shift</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(703, 118) rotate(4.0)" class="key keypos-18">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">I</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Opt</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(764, 168) rotate(10.0)" class="key keypos-19">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">O</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Ctrl</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(34, 209) rotate(-10.0)" class="key keypos-20">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Hyper</ns0:text>
+<ns0:text x="0" y="20" class="key hold">4 mods</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(97, 223) rotate(-10.0)" class="key keypos-21">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Z</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(152, 174) rotate(-4.0)" class="key keypos-22">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">X</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 140)" class="key keypos-23">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">C</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 168)" class="key keypos-24">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">D</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 177)" class="key keypos-25">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">V</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 177)" class="key keypos-26">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">K</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 168)" class="key keypos-27">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">H</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 140)" class="key keypos-28">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">,</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted">;</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(699, 174) rotate(4.0)" class="key keypos-29">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">.</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted">:</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(754, 223) rotate(10.0)" class="key keypos-30">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">?</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted">!</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(817, 209) rotate(10.0)" class="key keypos-31">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Meh</ns0:text>
+<ns0:text x="0" y="20" class="key hold">3 mods</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(255, 236)" class="key keypos-32">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Tab</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(320, 245) rotate(15.0)" class="key keypos-33">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Space</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Nav</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted"><ns0:tspan style="font-size: 8.80px">Sentence</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(381, 270) rotate(30.0)" class="key keypos-34">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Enter</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Fn</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(470, 270) rotate(-30.0)" class="key keypos-35">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Numword</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Num</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(531, 245) rotate(-15.0)" class="key keypos-36">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Magic</ns0:text>
+<ns0:text x="0" y="20" class="key hold">Shift</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted"><ns0:tspan style="font-size: 7.80px">Caps Word</ns0:tspan></ns0:text>
+</ns0:g>
+<ns0:g transform="translate(596, 236)" class="key keypos-37">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Bspc</ns0:text>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 0)" class="layer-Adjacent index + middle">
+<ns0:text x="0" y="35" class="label" id="Adjacent-index--middle">Adjacent index + middle</ns0:text>
+<ns0:g transform="translate(0, 100)">
+<ns0:g transform="translate(78, 113) rotate(-10.0)" class="key ghost keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Q</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(144, 62) rotate(-4.0)" class="key ghost keypos-1">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">W</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 28)" class="key ghost keypos-2">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">F</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 56)" class="key ghost keypos-3">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">P</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 65)" class="key ghost keypos-4">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">B</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 65)" class="key ghost keypos-5">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">J</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 56)" class="key ghost keypos-6">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">L</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 28)" class="key ghost keypos-7">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">U</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(706, 62) rotate(4.0)" class="key ghost keypos-8">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Y</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(773, 113) rotate(10.0)" class="key ghost keypos-9">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">'</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(87, 168) rotate(-10.0)" class="key ghost keypos-10">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">A</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(148, 118) rotate(-4.0)" class="key ghost keypos-11">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">R</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 84)" class="key ghost keypos-12">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">S</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 112)" class="key ghost keypos-13">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">T</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 121)" class="key ghost keypos-14">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">G</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 121)" class="key ghost keypos-15">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">M</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 112)" class="key ghost keypos-16">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">N</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 84)" class="key ghost keypos-17">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">E</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(703, 118) rotate(4.0)" class="key ghost keypos-18">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">I</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(764, 168) rotate(10.0)" class="key ghost keypos-19">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">O</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(34, 209) rotate(-10.0)" class="key ghost keypos-20">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Hyper</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(97, 223) rotate(-10.0)" class="key ghost keypos-21">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Z</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(152, 174) rotate(-4.0)" class="key ghost keypos-22">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">X</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 140)" class="key ghost keypos-23">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">C</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 168)" class="key ghost keypos-24">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">D</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 177)" class="key ghost keypos-25">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">V</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 177)" class="key ghost keypos-26">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">K</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 168)" class="key ghost keypos-27">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">H</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 140)" class="key ghost keypos-28">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">,</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(699, 174) rotate(4.0)" class="key ghost keypos-29">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">.</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(754, 223) rotate(10.0)" class="key ghost keypos-30">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">?</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(817, 209) rotate(10.0)" class="key ghost keypos-31">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Meh</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(255, 236)" class="key ghost keypos-32">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Tab</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(320, 245) rotate(15.0)" class="key ghost keypos-33">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Space</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(381, 270) rotate(30.0)" class="key ghost keypos-34">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Enter</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(470, 270) rotate(-30.0)" class="key ghost keypos-35">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Numword</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(531, 245) rotate(-15.0)" class="key ghost keypos-36">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Magic</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(596, 236)" class="key ghost keypos-37">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Bspc</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-0">
+<ns0:path d="M242,-13 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M242,-13 h24 a6.0,6.0 0 0 1 6.0,6.0 v44" class="combo" />
+<ns0:rect rx="6" ry="6" x="213" y="-30" width="58" height="34" class="combo" />
+<ns0:text x="242" y="-13" class="combo tap">`</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-1">
+<ns0:path d="M242,43 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M242,43 h24 a6.0,6.0 0 0 1 6.0,6.0 v44" class="combo" />
+<ns0:rect rx="6" ry="6" x="213" y="26" width="58" height="34" class="combo" />
+<ns0:text x="242" y="43" class="combo tap">
+<ns0:tspan x="242" dy="-0.6em" style="font-size: 10.14px">Shift+Cmd</ns0:tspan><ns0:tspan x="242" dy="1.2em" style="font-size: 10.14px">hold</ns0:tspan>
+</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-2">
+<ns0:path d="M242,99 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M242,99 h24 a6.0,6.0 0 0 1 6.0,6.0 v44" class="combo" />
+<ns0:rect rx="6" ry="6" x="213" y="82" width="58" height="34" class="combo" />
+<ns0:text x="242" y="99" class="combo tap">Paste</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-3">
+<ns0:path d="M609,-13 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v44" class="combo" />
+<ns0:path d="M609,-13 h24 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="580" y="-30" width="58" height="34" class="combo" />
+<ns0:text x="609" y="-13" class="combo tap">#</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-4">
+<ns0:path d="M609,43 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v44" class="combo" />
+<ns0:path d="M609,43 h24 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="580" y="26" width="58" height="34" class="combo" />
+<ns0:text x="609" y="43" class="combo tap">(</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-5">
+<ns0:path d="M609,99 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v44" class="combo" />
+<ns0:path d="M609,99 h24 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="580" y="82" width="58" height="34" class="combo" />
+<ns0:text x="609" y="99" class="combo tap">[</ns0:text>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 409)" class="layer-Adjacent middle + ring">
+<ns0:text x="0" y="35" class="label" id="Adjacent-middle--ring">Adjacent middle + ring</ns0:text>
+<ns0:g transform="translate(0, 100)">
+<ns0:g transform="translate(78, 113) rotate(-10.0)" class="key ghost keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Q</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(144, 62) rotate(-4.0)" class="key ghost keypos-1">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">W</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 28)" class="key ghost keypos-2">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">F</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 56)" class="key ghost keypos-3">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">P</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 65)" class="key ghost keypos-4">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">B</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 65)" class="key ghost keypos-5">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">J</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 56)" class="key ghost keypos-6">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">L</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 28)" class="key ghost keypos-7">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">U</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(706, 62) rotate(4.0)" class="key ghost keypos-8">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Y</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(773, 113) rotate(10.0)" class="key ghost keypos-9">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">'</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(87, 168) rotate(-10.0)" class="key ghost keypos-10">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">A</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(148, 118) rotate(-4.0)" class="key ghost keypos-11">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">R</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 84)" class="key ghost keypos-12">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">S</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 112)" class="key ghost keypos-13">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">T</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 121)" class="key ghost keypos-14">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">G</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 121)" class="key ghost keypos-15">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">M</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 112)" class="key ghost keypos-16">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">N</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 84)" class="key ghost keypos-17">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">E</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(703, 118) rotate(4.0)" class="key ghost keypos-18">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">I</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(764, 168) rotate(10.0)" class="key ghost keypos-19">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">O</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(34, 209) rotate(-10.0)" class="key ghost keypos-20">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Hyper</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(97, 223) rotate(-10.0)" class="key ghost keypos-21">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Z</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(152, 174) rotate(-4.0)" class="key ghost keypos-22">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">X</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 140)" class="key ghost keypos-23">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">C</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 168)" class="key ghost keypos-24">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">D</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 177)" class="key ghost keypos-25">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">V</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 177)" class="key ghost keypos-26">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">K</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 168)" class="key ghost keypos-27">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">H</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 140)" class="key ghost keypos-28">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">,</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(699, 174) rotate(4.0)" class="key ghost keypos-29">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">.</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(754, 223) rotate(10.0)" class="key ghost keypos-30">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">?</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(817, 209) rotate(10.0)" class="key ghost keypos-31">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Meh</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(255, 236)" class="key ghost keypos-32">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Tab</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(320, 245) rotate(15.0)" class="key ghost keypos-33">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Space</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(381, 270) rotate(30.0)" class="key ghost keypos-34">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Enter</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(470, 270) rotate(-30.0)" class="key ghost keypos-35">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Numword</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(531, 245) rotate(-15.0)" class="key ghost keypos-36">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Magic</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(596, 236)" class="key ghost keypos-37">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Bspc</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-0">
+<ns0:path d="M178,-13 h-28 a6.0,6.0 0 0 0 -6.0,6.0 v50" class="combo" />
+<ns0:path d="M178,-13 h28 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="149" y="-30" width="58" height="34" class="combo" />
+<ns0:text x="178" y="-13" class="combo tap">Esc</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-1">
+<ns0:path d="M180,43 h-26 a6.0,6.0 0 0 0 -6.0,6.0 v50" class="combo" />
+<ns0:path d="M180,43 h26 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="151" y="26" width="58" height="34" class="combo" />
+<ns0:text x="180" y="43" class="combo tap">Tab</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-2">
+<ns0:path d="M182,99 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v50" class="combo" />
+<ns0:path d="M182,99 h24 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="153" y="82" width="58" height="34" class="combo" />
+<ns0:text x="182" y="99" class="combo tap">Copy</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-3">
+<ns0:path d="M673,-13 h-28 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M673,-13 h28 a6.0,6.0 0 0 1 6.0,6.0 v50" class="combo" />
+<ns0:rect rx="6" ry="6" x="644" y="-30" width="58" height="34" class="combo" />
+<ns0:text x="673" y="-13" class="combo tap">*</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-4">
+<ns0:path d="M671,43 h-26 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M671,43 h26 a6.0,6.0 0 0 1 6.0,6.0 v50" class="combo" />
+<ns0:rect rx="6" ry="6" x="642" y="26" width="58" height="34" class="combo" />
+<ns0:text x="671" y="43" class="combo tap">)</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-5">
+<ns0:path d="M669,99 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M669,99 h24 a6.0,6.0 0 0 1 6.0,6.0 v50" class="combo" />
+<ns0:rect rx="6" ry="6" x="640" y="82" width="58" height="34" class="combo" />
+<ns0:text x="669" y="99" class="combo tap">]</ns0:text>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 409)" class="layer-Skip middle: index + ring">
+<ns0:text x="0" y="35" class="label" id="Skip-middle:-index--ring">Skip middle: index + ring</ns0:text>
+<ns0:g transform="translate(0, 72)">
+<ns0:g transform="translate(78, 113) rotate(-10.0)" class="key ghost keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Q</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(144, 62) rotate(-4.0)" class="key ghost keypos-1">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">W</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 28)" class="key ghost keypos-2">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">F</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 56)" class="key ghost keypos-3">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">P</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 65)" class="key ghost keypos-4">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">B</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 65)" class="key ghost keypos-5">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">J</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 56)" class="key ghost keypos-6">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">L</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 28)" class="key ghost keypos-7">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">U</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(706, 62) rotate(4.0)" class="key ghost keypos-8">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Y</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(773, 113) rotate(10.0)" class="key ghost keypos-9">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">'</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(87, 168) rotate(-10.0)" class="key ghost keypos-10">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">A</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(148, 118) rotate(-4.0)" class="key ghost keypos-11">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">R</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 84)" class="key ghost keypos-12">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">S</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 112)" class="key ghost keypos-13">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">T</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 121)" class="key ghost keypos-14">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">G</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 121)" class="key ghost keypos-15">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">M</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 112)" class="key ghost keypos-16">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">N</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 84)" class="key ghost keypos-17">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">E</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(703, 118) rotate(4.0)" class="key ghost keypos-18">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">I</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(764, 168) rotate(10.0)" class="key ghost keypos-19">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">O</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(34, 209) rotate(-10.0)" class="key ghost keypos-20">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Hyper</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(97, 223) rotate(-10.0)" class="key ghost keypos-21">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Z</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(152, 174) rotate(-4.0)" class="key ghost keypos-22">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">X</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 140)" class="key ghost keypos-23">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">C</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 168)" class="key ghost keypos-24">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">D</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 177)" class="key ghost keypos-25">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">V</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 177)" class="key ghost keypos-26">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">K</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 168)" class="key ghost keypos-27">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">H</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 140)" class="key ghost keypos-28">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">,</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(699, 174) rotate(4.0)" class="key ghost keypos-29">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">.</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(754, 223) rotate(10.0)" class="key ghost keypos-30">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">?</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(817, 209) rotate(10.0)" class="key ghost keypos-31">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Meh</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(255, 236)" class="key ghost keypos-32">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Tab</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(320, 245) rotate(15.0)" class="key ghost keypos-33">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Space</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(381, 270) rotate(30.0)" class="key ghost keypos-34">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Enter</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(470, 270) rotate(-30.0)" class="key ghost keypos-35">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Numword</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(531, 245) rotate(-15.0)" class="key ghost keypos-36">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Magic</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(596, 236)" class="key ghost keypos-37">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Bspc</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-0">
+<ns0:path d="M208,15 h-58 a6.0,6.0 0 0 0 -6.0,6.0 v22" class="combo" />
+<ns0:path d="M208,15 h58 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="179" y="-2" width="58" height="34" class="combo" />
+<ns0:text x="208" y="15" class="combo tap">@</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-1">
+<ns0:path d="M210,71 h-56 a6.0,6.0 0 0 0 -6.0,6.0 v22" class="combo" />
+<ns0:path d="M210,71 h56 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="181" y="54" width="58" height="34" class="combo" />
+<ns0:text x="210" y="71" class="combo tap">=</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-2">
+<ns0:path d="M212,127 h-54 a6.0,6.0 0 0 0 -6.0,6.0 v22" class="combo" />
+<ns0:path d="M212,127 h54 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="183" y="110" width="58" height="34" class="combo" />
+<ns0:text x="212" y="127" class="combo tap">Cut</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-3">
+<ns0:path d="M643,15 h-57 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M643,15 h57 a6.0,6.0 0 0 1 6.0,6.0 v22" class="combo" />
+<ns0:rect rx="6" ry="6" x="614" y="-2" width="58" height="34" class="combo" />
+<ns0:text x="643" y="15" class="combo tap">+</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-4">
+<ns0:path d="M641,71 h-55 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M641,71 h55 a6.0,6.0 0 0 1 6.0,6.0 v22" class="combo" />
+<ns0:rect rx="6" ry="6" x="612" y="54" width="58" height="34" class="combo" />
+<ns0:text x="641" y="71" class="combo tap">-</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-5">
+<ns0:path d="M639,127 h-54 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M639,127 h54 a6.0,6.0 0 0 1 6.0,6.0 v22" class="combo" />
+<ns0:rect rx="6" ry="6" x="610" y="110" width="58" height="34" class="combo" />
+<ns0:text x="639" y="127" class="combo tap">/</ns0:text>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(32, 818)" class="layer-Three fingers: index + middle + ring">
+<ns0:text x="0" y="35" class="label" id="Three-fingers:-index--middle--ring">Three fingers: index + middle + ring</ns0:text>
+<ns0:g transform="translate(0, 100)">
+<ns0:g transform="translate(78, 113) rotate(-10.0)" class="key ghost keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Q</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(144, 62) rotate(-4.0)" class="key ghost keypos-1">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">W</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 28)" class="key ghost keypos-2">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">F</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 56)" class="key ghost keypos-3">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">P</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 65)" class="key ghost keypos-4">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">B</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 65)" class="key ghost keypos-5">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">J</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 56)" class="key ghost keypos-6">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">L</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 28)" class="key ghost keypos-7">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">U</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(706, 62) rotate(4.0)" class="key ghost keypos-8">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Y</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(773, 113) rotate(10.0)" class="key ghost keypos-9">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">'</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(87, 168) rotate(-10.0)" class="key ghost keypos-10">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">A</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(148, 118) rotate(-4.0)" class="key ghost keypos-11">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">R</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 84)" class="key ghost keypos-12">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">S</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 112)" class="key ghost keypos-13">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">T</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 121)" class="key ghost keypos-14">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">G</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 121)" class="key ghost keypos-15">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">M</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 112)" class="key ghost keypos-16">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">N</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 84)" class="key ghost keypos-17">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">E</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(703, 118) rotate(4.0)" class="key ghost keypos-18">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">I</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(764, 168) rotate(10.0)" class="key ghost keypos-19">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">O</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(34, 209) rotate(-10.0)" class="key ghost keypos-20">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Hyper</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(97, 223) rotate(-10.0)" class="key ghost keypos-21">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Z</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(152, 174) rotate(-4.0)" class="key ghost keypos-22">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">X</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 140)" class="key ghost keypos-23">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">C</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 168)" class="key ghost keypos-24">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">D</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 177)" class="key ghost keypos-25">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">V</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 177)" class="key ghost keypos-26">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">K</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 168)" class="key ghost keypos-27">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">H</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 140)" class="key ghost keypos-28">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">,</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(699, 174) rotate(4.0)" class="key ghost keypos-29">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">.</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(754, 223) rotate(10.0)" class="key ghost keypos-30">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">?</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(817, 209) rotate(10.0)" class="key ghost keypos-31">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Meh</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(255, 236)" class="key ghost keypos-32">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Tab</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(320, 245) rotate(15.0)" class="key ghost keypos-33">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Space</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(381, 270) rotate(30.0)" class="key ghost keypos-34">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Enter</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(470, 270) rotate(-30.0)" class="key ghost keypos-35">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Numword</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(531, 245) rotate(-15.0)" class="key ghost keypos-36">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Magic</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(596, 236)" class="key ghost keypos-37">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Bspc</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-0">
+<ns0:path d="M209,-13 h-59 a6.0,6.0 0 0 0 -6.0,6.0 v50" class="combo" />
+<ns0:path d="M209,-13 l2,22" class="combo" />
+<ns0:path d="M209,-13 h56 a6.0,6.0 0 0 1 6.0,6.0 v44" class="combo" />
+<ns0:rect rx="6" ry="6" x="180" y="-30" width="58" height="34" class="combo" />
+<ns0:text x="209" y="-13" class="combo tap">Fence</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-1">
+<ns0:path d="M210,43 h-56 a6.0,6.0 0 0 0 -6.0,6.0 v50" class="combo" />
+<ns0:path d="M210,43 l1,22" class="combo" />
+<ns0:path d="M210,43 h55 a6.0,6.0 0 0 1 6.0,6.0 v44" class="combo" />
+<ns0:rect rx="6" ry="6" x="181" y="26" width="58" height="34" class="combo" />
+<ns0:text x="210" y="43" class="combo tap">
+<ns0:tspan x="210" dy="-0.6em" style="font-size: 10.14px">S+Opt+Cmd</ns0:tspan><ns0:tspan x="210" dy="1.2em" style="font-size: 10.14px">hold</ns0:tspan>
+</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-2">
+<ns0:path d="M212,99 h-54 a6.0,6.0 0 0 0 -6.0,6.0 v50" class="combo" />
+<ns0:path d="M212,99 l0,22" class="combo" />
+<ns0:path d="M212,99 h54 a6.0,6.0 0 0 1 6.0,6.0 v44" class="combo" />
+<ns0:rect rx="6" ry="6" x="183" y="82" width="58" height="34" class="combo" />
+<ns0:text x="212" y="99" class="combo tap">\</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-3">
+<ns0:path d="M640,43 h-55 a6.0,6.0 0 0 0 -6.0,6.0 v44" class="combo" />
+<ns0:path d="M640,43 l-1,22" class="combo" />
+<ns0:path d="M640,43 h56 a6.0,6.0 0 0 1 6.0,6.0 v50" class="combo" />
+<ns0:rect rx="6" ry="6" x="611" y="26" width="58" height="34" class="combo" />
+<ns0:text x="640" y="43" class="combo tap">_</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-4">
+<ns0:path d="M639,99 h-53 a6.0,6.0 0 0 0 -6.0,6.0 v44" class="combo" />
+<ns0:path d="M639,99 l0,22" class="combo" />
+<ns0:path d="M639,99 h54 a6.0,6.0 0 0 1 6.0,6.0 v50" class="combo" />
+<ns0:rect rx="6" ry="6" x="610" y="82" width="58" height="34" class="combo" />
+<ns0:text x="639" y="99" class="combo tap">|</ns0:text>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:g transform="translate(947, 818)" class="layer-Adjacent ring + pinky">
+<ns0:text x="0" y="35" class="label" id="Adjacent-ring--pinky">Adjacent ring + pinky</ns0:text>
+<ns0:g transform="translate(0, 70)">
+<ns0:g transform="translate(78, 113) rotate(-10.0)" class="key ghost keypos-0">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Q</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(144, 62) rotate(-4.0)" class="key ghost keypos-1">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">W</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 28)" class="key ghost keypos-2">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">F</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 56)" class="key ghost keypos-3">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">P</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 65)" class="key ghost keypos-4">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">B</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 65)" class="key ghost keypos-5">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">J</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 56)" class="key ghost keypos-6">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">L</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 28)" class="key ghost keypos-7">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">U</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(706, 62) rotate(4.0)" class="key ghost keypos-8">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Y</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(773, 113) rotate(10.0)" class="key ghost keypos-9">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">'</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(87, 168) rotate(-10.0)" class="key ghost keypos-10">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">A</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(148, 118) rotate(-4.0)" class="key ghost keypos-11">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">R</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 84)" class="key ghost keypos-12">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">S</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 112)" class="key ghost keypos-13">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">T</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 121)" class="key ghost keypos-14">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">G</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 121)" class="key ghost keypos-15">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">M</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 112)" class="key ghost keypos-16">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">N</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 84)" class="key ghost keypos-17">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">E</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(703, 118) rotate(4.0)" class="key ghost keypos-18">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">I</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(764, 168) rotate(10.0)" class="key ghost keypos-19">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">O</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(34, 209) rotate(-10.0)" class="key ghost keypos-20">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Hyper</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(97, 223) rotate(-10.0)" class="key ghost keypos-21">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Z</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(152, 174) rotate(-4.0)" class="key ghost keypos-22">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">X</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(212, 140)" class="key ghost keypos-23">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">C</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(271, 168)" class="key ghost keypos-24">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">D</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(330, 177)" class="key ghost keypos-25">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">V</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(520, 177)" class="key ghost keypos-26">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">K</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(580, 168)" class="key ghost keypos-27">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">H</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(639, 140)" class="key ghost keypos-28">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">,</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(699, 174) rotate(4.0)" class="key ghost keypos-29">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">.</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(754, 223) rotate(10.0)" class="key ghost keypos-30">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">?</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(817, 209) rotate(10.0)" class="key ghost keypos-31">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Meh</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(255, 236)" class="key ghost keypos-32">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Tab</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(320, 245) rotate(15.0)" class="key ghost keypos-33">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Space</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(381, 270) rotate(30.0)" class="key ghost keypos-34">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Enter</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(470, 270) rotate(-30.0)" class="key ghost keypos-35">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Numword</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(531, 245) rotate(-15.0)" class="key ghost keypos-36">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Magic</ns0:text>
+</ns0:g>
+<ns0:g transform="translate(596, 236)" class="key ghost keypos-37">
+<ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key ghost" />
+<ns0:text x="0" y="0" class="key ghost tap">Bspc</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-0">
+<ns0:path d="M111,21 h-27 a6.0,6.0 0 0 0 -6.0,6.0 v67" class="combo" />
+<ns0:path d="M111,21 h27 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="82" y="4" width="58" height="34" class="combo" />
+<ns0:text x="111" y="21" class="combo tap">$</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-1">
+<ns0:path d="M118,77 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v67" class="combo" />
+<ns0:path d="M118,77 h24 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="89" y="60" width="58" height="34" class="combo" />
+<ns0:text x="118" y="77" class="combo tap">%</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-2">
+<ns0:path d="M124,133 h-21 a6.0,6.0 0 0 0 -6.0,6.0 v66" class="combo" />
+<ns0:path d="M124,133 h21 a6.0,6.0 0 0 1 6.0,6.0 v16" class="combo" />
+<ns0:rect rx="6" ry="6" x="95" y="116" width="58" height="34" class="combo" />
+<ns0:text x="124" y="133" class="combo tap">Undo</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-3">
+<ns0:path d="M740,21 h-27 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M740,21 h27 a6.0,6.0 0 0 1 6.0,6.0 v67" class="combo" />
+<ns0:rect rx="6" ry="6" x="711" y="4" width="58" height="34" class="combo" />
+<ns0:text x="740" y="21" class="combo tap">&amp;</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-4">
+<ns0:path d="M733,77 h-24 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M733,77 h24 a6.0,6.0 0 0 1 6.0,6.0 v67" class="combo" />
+<ns0:rect rx="6" ry="6" x="704" y="60" width="58" height="34" class="combo" />
+<ns0:text x="733" y="77" class="combo tap">^</ns0:text>
+</ns0:g>
+<ns0:g class="combo combopos-5">
+<ns0:path d="M726,133 h-22 a6.0,6.0 0 0 0 -6.0,6.0 v16" class="combo" />
+<ns0:path d="M726,133 h22 a6.0,6.0 0 0 1 6.0,6.0 v66" class="combo" />
+<ns0:rect rx="6" ry="6" x="697" y="116" width="58" height="34" class="combo" />
+<ns0:text x="726" y="133" class="combo tap">~</ns0:text>
+</ns0:g>
+</ns0:g>
+</ns0:g>
+<ns0:text x="1797.0" y="1263.0" class="footer">TOTEM / Mac / Colemak-DH / horizontal chords</ns0:text></ns0:svg>

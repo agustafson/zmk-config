@@ -1,0 +1,533 @@
+layout:
+  qmk_info_json: draw/totem-layout.json
+layers:
+  Base:
+  - Q
+  - W
+  - F
+  - P
+  - B
+  - J
+  - L
+  - U
+  - Y
+  - ''''
+  - t: A
+    h: Ctrl
+  - t: R
+    h: Opt
+  - t: S
+    h: Shift
+  - t: T
+    h: Cmd
+  - G
+  - M
+  - t: N
+    h: Cmd
+  - t: E
+    h: Shift
+  - t: I
+    h: Opt
+  - t: O
+    h: Ctrl
+  - t: Hyper
+    h: 4 mods
+  - Z
+  - X
+  - C
+  - D
+  - V
+  - K
+  - H
+  - t: ','
+    s: ;
+  - t: .
+    s: ':'
+  - t: '?'
+    s: '!'
+  - t: Meh
+    h: 3 mods
+  - Tab
+  - t: Space
+    h: Nav
+    s: Sentence
+  - t: Enter
+    h: Fn
+  - t: Numword
+    h: Num
+  - t: Magic
+    h: Shift
+    s: Caps Word
+  - Bspc
+  Nav:
+  - Close
+  - type: trans
+  - Prev App
+  - Next App
+  - type: trans
+  - PgUp
+  - t: Bspc
+    h: Del word
+  - t: Up
+    h: Doc start
+  - Esc
+  - type: trans
+  - t: Ctrl
+    h: sticky
+  - t: Opt
+    h: sticky
+  - t: Shift
+    h: sticky
+  - t: Cmd
+    h: sticky
+  - type: trans
+  - PgDn
+  - t: Left
+    h: Line start
+  - t: Down
+    h: Doc end
+  - t: Right
+    h: Line end
+  - Enter
+  - t: Hyper
+    h: 4 mods
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - Prev Word
+  - Tab
+  - Next Word
+  - type: trans
+  - type: trans
+  - t: Meh
+    h: 3 mods
+  - Tab
+  - t: Nav
+    type: held
+  - type: trans
+  - type: trans
+  - Cancel
+  - Bspc
+  Fn:
+  - F12
+  - F7
+  - F8
+  - F9
+  - type: trans
+  - type: trans
+  - Prev track
+  - Vol +
+  - Next track
+  - type: trans
+  - t: F11
+    h: Ctrl
+  - t: F4
+    h: Opt
+  - t: F5
+    h: Shift
+  - t: F6
+    h: Cmd
+  - type: trans
+  - type: trans
+  - t: Prev Space
+    h: Cmd
+  - t: Vol -
+    h: Shift
+  - t: Next Space
+    h: Opt
+  - type: trans
+  - t: Hyper
+    h: 4 mods
+  - F10
+  - F1
+  - F2
+  - F3
+  - type: trans
+  - Spotlight
+  - Next Window
+  - Mission Ctrl
+  - type: trans
+  - type: trans
+  - t: Meh
+    h: 3 mods
+  - Tab
+  - type: trans
+  - t: Fn
+    type: held
+  - Mute
+  - Play/Pause
+  - Bspc
+  Num:
+  - type: trans
+  - '7'
+  - '8'
+  - '9'
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - t: '0'
+    h: Ctrl
+  - t: '4'
+    h: Opt
+  - t: '5'
+    h: Shift
+  - t: '6'
+    h: Cmd
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - t: Hyper
+    h: 4 mods
+  - type: trans
+  - '1'
+  - '2'
+  - '3'
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - t: Meh
+    h: 3 mods
+  - Tab
+  - type: trans
+  - type: trans
+  - t: Num
+    type: held
+  - type: trans
+  - Bspc
+  Sys:
+  - t: BT
+    h: '0'
+  - t: BT
+    h: '1'
+  - t: BT
+    h: '2'
+  - t: BT
+    h: '3'
+  - BT CLR
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - Boot
+  - Boot
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - t: Hyper
+    h: 4 mods
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - Reset
+  - Reset
+  - type: trans
+  - type: trans
+  - type: trans
+  - type: trans
+  - t: Meh
+    h: 3 mods
+  - Tab
+  - type: trans
+  - t: Fn
+    type: held
+  - t: Num
+    type: held
+  - type: trans
+  - Bspc
+combos:
+- p:
+  - 1
+  - 2
+  k: Esc
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 2
+  - 3
+  k: '`'
+  l:
+  - Base
+  - Nav
+- p:
+  - 1
+  - 3
+  k: '@'
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 1
+  - 2
+  - 3
+  k: Fence
+  l:
+  - Base
+- p:
+  - 0
+  - 1
+  k: $
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 11
+  - 12
+  k:
+    t: Tab
+    h: Shift+Opt
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 12
+  - 13
+  k:
+    h: Shift+Cmd
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 11
+  - 13
+  k:
+    t: '='
+    h: Opt+Cmd
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 11
+  - 12
+  - 13
+  k:
+    h: S+Opt+Cmd
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 10
+  - 11
+  k:
+    t: '%'
+    h: Ctrl+Opt
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 22
+  - 23
+  k: Copy
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 23
+  - 24
+  k: Paste
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 22
+  - 24
+  k: Cut
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 22
+  - 23
+  - 24
+  k: \
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 21
+  - 22
+  k: Undo
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 6
+  - 7
+  k: '#'
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 7
+  - 8
+  k: '*'
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 6
+  - 8
+  k: +
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 8
+  - 9
+  k: '&'
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 16
+  - 17
+  k:
+    t: (
+    h: Shift+Cmd
+    s: <
+  l:
+  - Base
+  - Num
+- p:
+  - 17
+  - 18
+  k:
+    t: )
+    h: Shift+Opt
+    s: '>'
+  l:
+  - Base
+  - Num
+- p:
+  - 16
+  - 18
+  k:
+    t: '-'
+    h: Cmd+Opt
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 16
+  - 17
+  - 18
+  k:
+    t: _
+    h: S+Opt+Cmd
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 18
+  - 19
+  k:
+    t: ^
+    h: Opt+Ctrl
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 27
+  - 28
+  k: '['
+  l:
+  - Base
+  - Num
+- p:
+  - 28
+  - 29
+  k: ']'
+  l:
+  - Base
+  - Num
+- p:
+  - 27
+  - 29
+  k: /
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 27
+  - 28
+  - 29
+  k: '|'
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 29
+  - 30
+  k: '~'
+  l:
+  - Base
+  - Nav
+  - Num
+- p:
+  - 16
+  - 17
+  k: <
+  l:
+  - Nav
+  hidden: true
+- p:
+  - 17
+  - 18
+  k: '>'
+  l:
+  - Nav
+  hidden: true
+- p:
+  - 27
+  - 28
+  k: '{'
+  l:
+  - Nav
+  hidden: true
+- p:
+  - 28
+  - 29
+  k: '}'
+  l:
+  - Nav
+  hidden: true

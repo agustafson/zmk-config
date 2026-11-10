@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Markdown fenced code block",
+    "keyword": ";;fence",
+    "text": "```\n{cursor}\n```"
+  }
+]

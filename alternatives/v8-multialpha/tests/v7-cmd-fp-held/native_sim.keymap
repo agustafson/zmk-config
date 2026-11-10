@@ -1,0 +1,17 @@
+#include <dt-bindings/zmk/keys.h>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/kscan_mock.h>
+/ {
+ behaviors {
+   hm_l: home_mod_left { compatible = "zmk,behavior-hold-tap"; #binding-cells = <2>; flavor = "balanced"; tapping-term-ms = <230>; quick-tap-ms = <175>; hold-trigger-key-positions = <10>; hold-trigger-on-release; bindings = <&kp>, <&kp>; };
+   fence: fence { compatible = "custom,behavior-fence"; #binding-cells = <0>; };
+   combo_fence: combo_fence { compatible = "custom,behavior-combo-fence"; #binding-cells = <0>; };
+   fence_finish: fence_finish { compatible = "custom,behavior-fence-finish"; #binding-cells = <0>; };
+ };
+ combos { compatible = "zmk,combos";
+   esc { key-positions = <1 2 3>; bindings = <&kp ESC>; timeout-ms = <50>; layers = <0>; };
+   grave { key-positions = <2 3>; bindings = <&kp GRAVE>; timeout-ms = <50>; layers = <0>; };
+ };
+ keymap { compatible = "zmk,keymap"; base { bindings = <&hm_l LGUI S &kp W &kp F &kp P>; }; };
+};
+ &kscan { events = <ZMK_MOCK_PRESS(0,0,300) ZMK_MOCK_PRESS(1,0,10) ZMK_MOCK_PRESS(1,1,10) ZMK_MOCK_RELEASE(1,0,10) ZMK_MOCK_RELEASE(1,1,10) ZMK_MOCK_RELEASE(0,0,300)>; };

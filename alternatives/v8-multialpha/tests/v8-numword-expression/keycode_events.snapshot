@@ -1,0 +1,24 @@
+pressed: keycode 0x27 implicit_mods 0x00 explicit_mods 0x00
+reg implicit: Modifiers set to 0x00
+released: keycode 0x27 implicit_mods 0x00 explicit_mods 0x00
+unreg implicit: Modifiers set to 0x00
+pressed: keycode 0x1F implicit_mods 0x00 explicit_mods 0x00
+reg implicit: Modifiers set to 0x00
+released: keycode 0x1F implicit_mods 0x00 explicit_mods 0x00
+unreg implicit: Modifiers set to 0x00
+pressed: keycode 0x23 implicit_mods 0x00 explicit_mods 0x00
+reg implicit: Modifiers set to 0x00
+released: keycode 0x23 implicit_mods 0x00 explicit_mods 0x00
+unreg implicit: Modifiers set to 0x00
+pressed: keycode 0x2E implicit_mods 0x02 explicit_mods 0x00
+reg implicit: Modifiers set to 0x02
+released: keycode 0x2E implicit_mods 0x02 explicit_mods 0x00
+unreg implicit: Modifiers set to 0x00
+pressed: keycode 0x1E implicit_mods 0x00 explicit_mods 0x00
+reg implicit: Modifiers set to 0x00
+released: keycode 0x1E implicit_mods 0x00 explicit_mods 0x00
+unreg implicit: Modifiers set to 0x00
+pressed: keycode 0x2C implicit_mods 0x00 explicit_mods 0x00
+reg implicit: Modifiers set to 0x00
+released: keycode 0x2C implicit_mods 0x00 explicit_mods 0x00
+unreg implicit: Modifiers set to 0x00

@@ -1,0 +1,12 @@
+#include <dt-bindings/zmk/keys.h>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/kscan_mock.h>
+/ { behaviors {
+ fence_finish: fence_finish { compatible = "custom,behavior-fence-finish"; #binding-cells = <0>; };
+ direct_fence: direct_fence { compatible = "custom,behavior-direct-fence"; #binding-cells = <0>; };
+ combo_fence: combo_fence { compatible = "custom,behavior-combo-fence"; #binding-cells = <0>; };
+ }; combos { compatible = "zmk,combos";
+ fenced { key-positions = <0 1 2>; bindings = <&direct_fence>; timeout-ms = <50>; layers = <0>; };
+ grave { key-positions = <1 2>; bindings = <&kp GRAVE>; timeout-ms = <50>; layers = <0>; };
+ }; keymap { compatible = "zmk,keymap"; base { bindings = <&kp W &kp F &kp P &kp LC(LA(LS(LGUI)))>; }; }; };
+ &kscan { events = <ZMK_MOCK_PRESS(0,0,10) ZMK_MOCK_PRESS(0,1,10) ZMK_MOCK_PRESS(1,0,10) ZMK_MOCK_RELEASE(0,0,10) ZMK_MOCK_RELEASE(0,1,10) ZMK_MOCK_RELEASE(1,0,300)>; };

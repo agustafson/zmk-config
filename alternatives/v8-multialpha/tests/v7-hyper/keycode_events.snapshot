@@ -1,0 +1,12 @@
+pressed: keycode 0xE3 implicit_mods 0x00 explicit_mods 0x07
+reg explicit: Modifiers set to 0x08
+reg explicit: Modifiers set to 0x09
+reg explicit: Modifiers set to 0x0B
+reg explicit: Modifiers set to 0x0F
+reg implicit: Modifiers set to 0x0F
+released: keycode 0xE3 implicit_mods 0x00 explicit_mods 0x07
+unreg explicit: Modifiers set to 0x07
+unreg explicit: Modifiers set to 0x06
+unreg explicit: Modifiers set to 0x04
+unreg explicit: Modifiers set to 0x00
+unreg implicit: Modifiers set to 0x00

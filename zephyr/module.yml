@@ -1,0 +1,5 @@
+name: totem_fence
+build:
+  cmake: .
+  settings:
+    dts_root: .

@@ -1,0 +1,3 @@
+description: Direct Raycast fenced-block trigger
+compatible: "custom,behavior-direct-fence"
+include: zero_param.yaml
