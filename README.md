@@ -22,6 +22,59 @@ The extra left pinky is Hyper (Cmd+Ctrl+Option+Shift); the extra right pinky is 
 
 F+P sends a backtick. W+F+P types the Raycast snippet trigger `;;fence` and does not itself send Enter. See [MIRYOKU.md](MIRYOKU.md) for configuration and testing, and [the full layer diagram](draw/miryoku-layers.png).
 
+## Build and flash the Totem
+
+These instructions are for the **default Miryoku configuration**, a Mac and a wireless Totem with a XIAO nRF52840 in each half. This config assumes the original Totem matrix and left-central wiring; the controller model is confirmed, but the purchased board's wiring has not yet been verified. Check the seller's wiring or source against `config/boards/shields/totem/` before flashing.
+
+The left and right halves need **different firmware files** and must each be connected and flashed separately. The UF2 files are generated locally in `build/firmware/`, which Git ignores. They are not included when you clone the repository.
+
+### Build locally with Docker
+
+Install and start [Docker Desktop](https://www.docker.com/products/docker-desktop/) first. The first build downloads the ZMK image and the pinned ZMK/Zephyr dependencies, so it needs internet access and can take a while. It creates a new workspace under `~/dev/` on every run; you can remove that workspace after retrieving the UF2 files. This keeps the dependency workspace separate from this repository's own `zephyr/` module.
+
+Run the following in Terminal. Copy the whole block into one Terminal session, since it uses shell variables:
+
+```sh
+ZMK_REPO="$HOME/dev/zmk-config"
+ZMK_WORKSPACE=$(mktemp -d "$HOME/dev/totem-zmk-work.XXXXXX")
+mkdir "$ZMK_WORKSPACE/config"
+cp -R "$ZMK_REPO/config/." "$ZMK_WORKSPACE/config/"
+
+docker run --rm \
+  -v "$ZMK_WORKSPACE:/workspace" \
+  -v "$ZMK_REPO:/repo:ro" \
+  -w /workspace zmkfirmware/zmk-build-arm:stable /bin/sh -c '
+    set -eu
+    west init -l /workspace/config
+    west update --fetch-opt=--filter=tree:0
+    west zephyr-export
+    west build -s zmk/app -d /workspace/build-left -b xiao_ble//zmk -- \
+      -DSHIELD=totem_left -DZMK_CONFIG=/workspace/config -DZMK_EXTRA_MODULES=/repo
+    west build -s zmk/app -d /workspace/build-right -b xiao_ble//zmk -- \
+      -DSHIELD=totem_right -DZMK_CONFIG=/workspace/config -DZMK_EXTRA_MODULES=/repo
+  ' && \
+mkdir -p "$ZMK_REPO/build/firmware" && \
+cp "$ZMK_WORKSPACE/build-left/zephyr/zmk.uf2" "$ZMK_REPO/build/firmware/totem_left.uf2" && \
+cp "$ZMK_WORKSPACE/build-right/zephyr/zmk.uf2" "$ZMK_REPO/build/firmware/totem_right.uf2" && \
+open "$ZMK_REPO/build/firmware"
+```
+
+When the build succeeds, Finder opens a folder containing `totem_left.uf2` and `totem_right.uf2`. If the build fails, fix the error and run the block again; do not assume older files in `build/firmware/` match the latest config. For other local toolchain setups, see [ZMK's build documentation](https://zmk.dev/docs/development/local-toolchain/build-flash): this repo requires both `ZMK_CONFIG` and `ZMK_EXTRA_MODULES`.
+
+### Flash each half over USB
+
+1. Locate the two generated UF2 files in `~/dev/zmk-config/build/firmware/`. If they are already present, confirm they were built from the revision you intend to use; otherwise build them first.
+2. Connect the **left** half to the Mac with a USB data cable. Quickly press its reset button twice to enter the bootloader. Use the reset button on the Totem PCB, or the XIAO reset button if accessible. A removable drive should appear in Finder; its name depends on the bootloader.
+3. Copy `totem_left.uf2` to the root of that drive. Wait for the copy to finish: the drive normally disappears as the controller flashes and restarts.
+4. Connect the **right** half separately. Double-press its reset button, then copy `totem_right.uf2` to the new bootloader drive. Wait for it to disappear and restart.
+5. Power both halves. Connect the left half by USB and try keys on both halves in a scratch text field. The left is the central half for this config; the right half communicates with it wirelessly. If they do not connect, reset both halves at about the same time and allow a few seconds. Then test Bluetooth if desired.
+
+Use the macOS **U.S. or ABC** input source when testing: the firmware produces Colemak-DH. First try the basic letters, thumb keys, Nav and Backspace; the layout and timing are not yet verified on this particular board. If no bootloader drive appears, try a known data-capable cable and double-press reset again. See [ZMK's flashing instructions](https://zmk.dev/docs/user-setup#flash-uf2-files) and [connection troubleshooting](https://zmk.dev/docs/troubleshooting/connection-issues) if needed. A settings-reset firmware erases stored settings and Bluetooth pairings, so follow that troubleshooting procedure only if required.
+
+### Build later with GitHub Actions
+
+Once this repository has a GitHub remote and has been pushed, a push triggers the included build workflow. Open the repository's **Actions** tab, select a successful **Build Totem firmware** run, download its `firmware` artifact and extract it. Match the filenames containing `totem_left` and `totem_right` to the corresponding halves, then follow the USB steps above. The workflow builds the default configuration only and has not yet been run on GitHub.
+
 ## Structure and building
 
 - `config/` contains the active ZMK configuration, Totem shield and vendored Miryoku files. `config/miryoku/custom_config.h` contains the personal layer overrides.
