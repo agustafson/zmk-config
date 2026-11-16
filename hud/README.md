@@ -18,7 +18,7 @@ On this Mac, the older `totem_left_layer_hud.uf2` includes the QWERTY fallback; 
 
 The project runs Python code and installs dependencies; open source is not a security audit and this version has not been independently audited. The project's installer recommends running a downloaded script, but these instructions use a pinned clone so you can inspect it and the patch first. The source, module and host version should stay together. This repo does not install or start anything automatically.
 
-Prerequisites: Homebrew, Python 3.10 or later, and internet access. The commands below use the Python 3.12 already present at `/opt/homebrew/bin/python3.12` on this Mac. `make install` invokes the project's setup: it installs Homebrew `hidapi` if needed, creates a virtual environment under the HUD clone, installs its Python dependencies, and links a command into `~/.local/bin`. The upstream launcher currently requires the `hid` Python package to be present even though our patch disables its key reader. Review `Makefile`, `host/cli.py`, `host/requirements.txt` and the patch before running if desired.
+Prerequisites: Homebrew, Python 3.10 or later, and internet access. The commands below use Python 3.12, installed if necessary with `brew install python@3.12`. Check that `command -v python3.12` finds it before continuing; using the discovered path works on both Apple silicon and Intel Macs. `make install` invokes the project's setup: it installs Homebrew `hidapi` if needed, creates a virtual environment under the HUD clone, installs its Python dependencies, and links a command into `~/.local/bin`. The upstream launcher currently requires the `hid` Python package to be present even though our patch disables its key reader. Review `Makefile`, `host/cli.py`, `host/requirements.txt` and the patch before running if desired.
 
 In Terminal:
 
@@ -28,7 +28,7 @@ cd "$HOME/dev/zmk-layer-hud"
 git checkout --detach ddf52fb44a29fd7de2b260a465604c016b934458
 git apply --check "$HOME/dev/zmk-config/hud/layer-only-v1.2.0.patch"
 git apply "$HOME/dev/zmk-config/hud/layer-only-v1.2.0.patch"
-ZMKHUD_PYTHON=/opt/homebrew/bin/python3.12 make install
+ZMKHUD_PYTHON="$(command -v python3.12)" make install
 ```
 
 The clone step requires `~/dev/zmk-layer-hud` not to exist already. If it does, inspect it first instead of overwriting it. The patch is specific to v1.2.0; do not update the clone without re-evaluating and reapplying an appropriate layer-only patch. `git diff` in the HUD clone shows the change. The firmware dependency in this repository is pinned to the same commit.
@@ -45,6 +45,36 @@ HUD="$HOME/dev/zmk-layer-hud/bin/zmk-layer-hud"
 `config link` keeps an existing non-symlink HUD config as a `.bak` file. The panel opens on the screen with focus; drag and resize it, and change `hud.opacity` in `hud/config.yaml` to adjust transparency. The upstream default shortcut is Ctrl+Option+L to show or hide it. Stop it with `"$HOME/dev/zmk-layer-hud/bin/zmk-layer-hud" stop`.
 
 The upstream setup may print generic advice to grant **Input Monitoring** for typed-key display. The layer-only patch disables that reader, so do not grant it for this setup. For Bluetooth, macOS may request Bluetooth permission for the process running the HUD. The project says a re-pair may be needed if macOS caches the old Bluetooth service; try the existing pairing first. Do not run `feed --raw` when privacy matters: upstream documents that raw logs can contain key data.
+
+## Use the Totem and HUD on another Mac
+
+The keyboard stores its layout in firmware. Once the current HUD-enabled firmware has been flashed to the left half, you do not need to flash it again for another Mac. The right half does not need reflashing for this update. The HUD is a separate program, so install it on each Mac where you want the overlay.
+
+### Pair the keyboard
+
+1. Choose an unused Bluetooth profile. For example, if profile 0 is already paired with your first Mac, use profile 1 for the second Mac.
+2. Hold the left outer **Esc/Media** thumb key and tap the **comma** key on the right bottom row, then release the thumb key. This selects profile 1. In this Colemak-DH layout, the right bottom row from the inner side is `K H , . /`: `H` selects profile 0, comma selects profile 1, period selects profile 2, and slash selects profile 3.
+3. On the second Mac, open **System Settings > Bluetooth** and connect to the Totem. Type a few letters to check it works. If the left half is plugged into the first Mac, unplug it when using the second Mac over Bluetooth, or select Bluetooth output using the Media layer's `K` position.
+4. To switch back, hold Esc/Media and tap the key for the first Mac's profile, such as `H` for profile 0.
+
+Do not hold Shift while selecting a profile: Shift plus a profile key clears that profile's existing Bluetooth pairing. The first Mac's profile may not be profile 0 if you previously chose another one. See [ZMK's Bluetooth documentation](https://zmk.dev/docs/keymaps/behaviors/bluetooth) for more detail.
+
+The Totem sends Colemak-DH from its firmware. Select a standard US/ABC input source on macOS when using it; applying a Colemak input source as well would remap the letters a second time. You can choose a different input source when using the MacBook's built-in keyboard.
+
+### Install the overlay
+
+1. Install [Homebrew](https://brew.sh/) if needed, then run `brew install python@3.12` in Terminal.
+2. Clone this repository into the path used by the HUD config. If the directory already exists, inspect and update that existing clone instead of overwriting it. Authenticate to GitHub if prompted.
+
+   ```sh
+   mkdir -p "$HOME/dev"
+   git clone https://github.com/agustafson/zmk-config.git "$HOME/dev/zmk-config"
+   ```
+
+3. Follow [Install the Mac HUD from the pinned source](#2-install-the-mac-hud-from-the-pinned-source) above on the second Mac, including both command blocks. They clone the pinned HUD version, apply the layer-only patch, install its dependencies, link the configuration and start the overlay. The existing drawing is already in this repository; no firmware build is needed on that Mac.
+4. Allow Bluetooth access if macOS requests it. Input Monitoring is not required for this layer-only setup. Hold a layer thumb key and check that the displayed layer changes.
+
+Each Mac runs its own HUD and needs its own copy of the configuration. After pulling keymap changes on a Mac, follow the maintenance instructions below to refresh its HUD definitions.
 
 ## 3. Verify and maintain
 
