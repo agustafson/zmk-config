@@ -207,23 +207,23 @@ layers:
   - Tap 2×
   - Extra 2×
   - Base 2×
-  - ''
-  - Redo
-  - Paste
-  - Copy
-  - Cut
-  - Undo
+  - '`'
+  - PgUp
+  - Line start
+  - Up
+  - Line end
+  - Ins
   - Ctrl
   - Opt
   - Shift
   - Cmd
   - ''
-  - t: Caps Word
-    s: CAPS
+  - PgDn
   - Left
   - Down
-  - Up
   - Right
+  - t: Caps Word
+    s: CAPS
   - t: Hyper
     h: 4 mods
   - ''
@@ -231,11 +231,11 @@ layers:
   - Lock Num 2×
   - Lock Nav 2×
   - ''
-  - '`'
-  - Line start
-  - PgDn
-  - PgUp
-  - Line end
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
   - t: Meh
     h: 3 mods
   - ''
@@ -251,21 +251,21 @@ layers:
   - Extra 2×
   - Base 2×
   - ''
-  - Redo
-  - Paste
-  - Copy
-  - Cut
-  - Undo
+  - Scroll Up
+  - Scroll Left
+  - Mouse Up
+  - Scroll Right
+  - ''
   - Ctrl
   - Opt
   - Shift
   - Cmd
   - ''
-  - ''
+  - Scroll Down
   - Mouse Left
   - Mouse Down
-  - Mouse Up
   - Mouse Right
+  - ''
   - t: Hyper
     h: 4 mods
   - ''
@@ -273,11 +273,11 @@ layers:
   - Lock Sym 2×
   - Lock Mouse 2×
   - ''
-  - ''
-  - Scroll Left
-  - Scroll Down
-  - Scroll Up
-  - Scroll Right
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
   - t: Meh
     h: 3 mods
   - ''
@@ -295,9 +295,9 @@ layers:
   - ''
   - RGB TOG
   - RGB EFF
+  - Vol +
   - RGB HUI
   - RGB SAI
-  - RGB BRI
   - Ctrl
   - Opt
   - Shift
@@ -306,8 +306,8 @@ layers:
   - EP TOG
   - Prev track
   - Vol -
-  - Vol +
   - Next track
+  - RGB BRI
   - t: Hyper
     h: 4 mods
   - ''

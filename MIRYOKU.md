@@ -34,10 +34,20 @@ In the default stock Miryoku, the right outer tap is Delete; it is Escape here. 
 
 ## Coherent layer relationships
 
-- **Nav and Mouse:** right-hand movement uses the same positions. The row below moves by page or scrolls in the same direction. Clipboard keys, including Undo and Redo, occupy matching positions on both layers. Mouse buttons are the right thumbs while Mouse is active.
+- **Nav and Mouse:** right-hand arrows and pointer movement use the same inverted-T positions. Page Up/Down are on the inner index column; vertical scrolling uses those same positions on Mouse. Clipboard keys, including Undo and Redo, occupy the right-hand bottom row on both layers. Mouse buttons are the right thumbs while Mouse is active. Media also follows the Miryoku Inverted-T arrangement.
 - **Num and Fun:** F7–F9, F4–F6 and F1–F3 follow the same positions as 7–9, 4–6 and 1–3.
 - **Sym:** many symbols are in the positions associated with their shifted U.S. number keys, with parentheses and underscore on the left thumbs.
 - **Mac clipboard:** Undo Cmd+Z, Redo Cmd+Shift+Z, Cut Cmd+X, Copy Cmd+C and Paste Cmd+V. Nav line-start/line-end keys send Cmd+Left/Right. Behavior can differ in terminal programs and individual applications.
+
+On Nav, the right-hand keys are arranged as follows, from the inner index column toward the pinky:
+
+```text
+PgUp   Line start   Up     Line end   Insert
+PgDn   Left         Down   Right      Caps Word
+Redo   Paste        Copy   Cut        Undo
+```
+
+This follows Miryoku Inverted-T, except that Page Up/Down exchange places with Insert and Caps Word. Caps Word capitalizes identifiers; it is not a Caps Lock toggle. Line start/end retain this Mac configuration's Cmd+Left/Right shortcuts. `MIRYOKU_NAV_INVERTEDT` records the selected variant; the custom layer definitions implement these preferences and the matching mouse alignment.
 
 Holding the right Backspace thumb gives the Num layer. To lock Num for repeated input, hold Nav (left Space) and double-tap the left bottom-row middle position, labelled `Lock Num 2×` in the diagram; this invokes Miryoku's `to` layer behavior. To leave a locked layer, use its `Base 2×` action. Locking is not automatic Num Word; test cancellation before relying on it.
 
@@ -45,8 +55,8 @@ Holding the right Backspace thumb gives the Num layer. To lock Num for repeated 
 
 - **F+P:** backtick on Base. Hold Cmd and use the chord for Cmd+backtick. The keys must arrive within 50 ms.
 - **W+F+P:** Raycast fence on Base, also 50 ms. It overlaps F+P; test recognition and timing.
-- **Nav:** hold left Space, then press the right inner bottom key (K position) for backtick.
-- **Fun:** hold the right outer thumb; the left inner index top key is backtick, the matching home key invokes the Raycast fence, and the bottom key is empty. These replace Print Screen, Scroll Lock and Pause/Break. Nav Insert was replaced with backtick.
+- **Nav:** hold left Space, then press the left inner index top key (B position) for backtick.
+- **Fun:** hold the right outer thumb; the left inner index top key is backtick, the matching home key invokes the Raycast fence, and the bottom key is empty. These replace Print Screen, Scroll Lock and Pause/Break. Insert is on the Nav right pinky top key.
 
 The fence behavior types the Raycast trigger `;;fence`; it does **not** send Enter. Import `raycast-code-fence.json` using Raycast's Import Snippets action. Expansion and multiline insertion depend on Raycast and the host application; test in a safe unsent field in each desktop/browser and terminal workflow. Without an active Raycast snippet the trigger text remains literal.
 

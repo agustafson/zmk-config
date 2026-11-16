@@ -169,26 +169,31 @@ text.label, text.footer { stroke: none; }
 </ns0:g>
 <ns0:g transform="translate(330, 65)" class="key keypos-4">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">`</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(520, 65)" class="key keypos-5">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Redo</ns0:text>
+<ns0:text x="0" y="0" class="key tap">PgUp</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(580, 56)" class="key keypos-6">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Paste</ns0:text>
+<ns0:text x="0" y="0" class="key tap">
+<ns0:tspan x="0" dy="-0.6em">Line</ns0:tspan><ns0:tspan x="0" dy="1.2em">start</ns0:tspan>
+</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(639, 28)" class="key keypos-7">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Copy</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Up</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(706, 62) rotate(4.0)" class="key keypos-8">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Cut</ns0:text>
+<ns0:text x="0" y="0" class="key tap">
+<ns0:tspan x="0" dy="-0.6em">Line</ns0:tspan><ns0:tspan x="0" dy="1.2em">end</ns0:tspan>
+</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(773, 113) rotate(10.0)" class="key keypos-9">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Undo</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Ins</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(87, 168) rotate(-10.0)" class="key keypos-10">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
@@ -211,10 +216,7 @@ text.label, text.footer { stroke: none; }
 </ns0:g>
 <ns0:g transform="translate(520, 121)" class="key keypos-15">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.3em">Caps</ns0:tspan><ns0:tspan x="0" dy="1.2em">Word</ns0:tspan>
-</ns0:text>
-<ns0:text x="0" y="-20" class="key shifted">CAPS</ns0:text>
+<ns0:text x="0" y="0" class="key tap">PgDn</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(580, 112)" class="key keypos-16">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
@@ -226,11 +228,14 @@ text.label, text.footer { stroke: none; }
 </ns0:g>
 <ns0:g transform="translate(703, 118) rotate(4.0)" class="key keypos-18">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Up</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Right</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(764, 168) rotate(10.0)" class="key keypos-19">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Right</ns0:text>
+<ns0:text x="0" y="0" class="key tap">
+<ns0:tspan x="0" dy="-0.3em">Caps</ns0:tspan><ns0:tspan x="0" dy="1.2em">Word</ns0:tspan>
+</ns0:text>
+<ns0:text x="0" y="-20" class="key shifted">CAPS</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(34, 209) rotate(-10.0)" class="key keypos-20">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
@@ -261,27 +266,23 @@ text.label, text.footer { stroke: none; }
 </ns0:g>
 <ns0:g transform="translate(520, 177)" class="key keypos-26">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">`</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Redo</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(580, 168)" class="key keypos-27">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.6em">Line</ns0:tspan><ns0:tspan x="0" dy="1.2em">start</ns0:tspan>
-</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Paste</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(639, 140)" class="key keypos-28">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">PgDn</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Copy</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(699, 174) rotate(4.0)" class="key keypos-29">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">PgUp</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Cut</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(754, 223) rotate(10.0)" class="key keypos-30">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.6em">Line</ns0:tspan><ns0:tspan x="0" dy="1.2em">end</ns0:tspan>
-</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Undo</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(817, 209) rotate(10.0)" class="key keypos-31">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
@@ -345,23 +346,30 @@ text.label, text.footer { stroke: none; }
 </ns0:g>
 <ns0:g transform="translate(520, 65)" class="key keypos-5">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Redo</ns0:text>
+<ns0:text x="0" y="0" class="key tap">
+<ns0:tspan x="0" dy="-0.6em">Scroll</ns0:tspan><ns0:tspan x="0" dy="1.2em">Up</ns0:tspan>
+</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(580, 56)" class="key keypos-6">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Paste</ns0:text>
+<ns0:text x="0" y="0" class="key tap">
+<ns0:tspan x="0" dy="-0.6em">Scroll</ns0:tspan><ns0:tspan x="0" dy="1.2em">Left</ns0:tspan>
+</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(639, 28)" class="key keypos-7">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Copy</ns0:text>
+<ns0:text x="0" y="0" class="key tap">
+<ns0:tspan x="0" dy="-0.6em">Mouse</ns0:tspan><ns0:tspan x="0" dy="1.2em">Up</ns0:tspan>
+</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(706, 62) rotate(4.0)" class="key keypos-8">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Cut</ns0:text>
+<ns0:text x="0" y="0" class="key tap">
+<ns0:tspan x="0" dy="-0.6em">Scroll</ns0:tspan><ns0:tspan x="0" dy="1.2em">Right</ns0:tspan>
+</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(773, 113) rotate(10.0)" class="key keypos-9">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">Undo</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(87, 168) rotate(-10.0)" class="key keypos-10">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
@@ -384,6 +392,9 @@ text.label, text.footer { stroke: none; }
 </ns0:g>
 <ns0:g transform="translate(520, 121)" class="key keypos-15">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">
+<ns0:tspan x="0" dy="-0.6em">Scroll</ns0:tspan><ns0:tspan x="0" dy="1.2em">Down</ns0:tspan>
+</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(580, 112)" class="key keypos-16">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
@@ -400,14 +411,11 @@ text.label, text.footer { stroke: none; }
 <ns0:g transform="translate(703, 118) rotate(4.0)" class="key keypos-18">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
 <ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.6em">Mouse</ns0:tspan><ns0:tspan x="0" dy="1.2em">Up</ns0:tspan>
+<ns0:tspan x="0" dy="-0.6em">Mouse</ns0:tspan><ns0:tspan x="0" dy="1.2em">Right</ns0:tspan>
 </ns0:text>
 </ns0:g>
 <ns0:g transform="translate(764, 168) rotate(10.0)" class="key keypos-19">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.6em">Mouse</ns0:tspan><ns0:tspan x="0" dy="1.2em">Right</ns0:tspan>
-</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(34, 209) rotate(-10.0)" class="key keypos-20">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
@@ -438,30 +446,23 @@ text.label, text.footer { stroke: none; }
 </ns0:g>
 <ns0:g transform="translate(520, 177)" class="key keypos-26">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
+<ns0:text x="0" y="0" class="key tap">Redo</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(580, 168)" class="key keypos-27">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.6em">Scroll</ns0:tspan><ns0:tspan x="0" dy="1.2em">Left</ns0:tspan>
-</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Paste</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(639, 140)" class="key keypos-28">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.6em">Scroll</ns0:tspan><ns0:tspan x="0" dy="1.2em">Down</ns0:tspan>
-</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Copy</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(699, 174) rotate(4.0)" class="key keypos-29">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.6em">Scroll</ns0:tspan><ns0:tspan x="0" dy="1.2em">Up</ns0:tspan>
-</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Cut</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(754, 223) rotate(10.0)" class="key keypos-30">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
-<ns0:text x="0" y="0" class="key tap">
-<ns0:tspan x="0" dy="-0.6em">Scroll</ns0:tspan><ns0:tspan x="0" dy="1.2em">Right</ns0:tspan>
-</ns0:text>
+<ns0:text x="0" y="0" class="key tap">Undo</ns0:text>
 </ns0:g>
 <ns0:g transform="translate(817, 209) rotate(10.0)" class="key keypos-31">
 <ns0:rect rx="6" ry="6" x="-27" y="-25" width="53" height="50" class="key" />
