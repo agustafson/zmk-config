@@ -60,6 +60,12 @@ Holding the right Backspace thumb gives the Num layer. To lock Num for repeated 
 
 The fence behavior types the Raycast trigger `;;fence`; it does **not** send Enter. Import `raycast-code-fence.json` using Raycast's Import Snippets action. Expansion and multiline insertion depend on Raycast and the host application; test in a safe unsent field in each desktop/browser and terminal workflow. Without an active Raycast snippet the trigger text remains literal.
 
+## Frequently missed symbols
+
+- `?`: hold the left home-row `S` key for Shift, then tap the right-hand `/` key on the bottom row, beside the outer Meh key. Holding `/` instead activates the Button layer.
+- `)`: hold the right inner Enter/Sym thumb, then tap the left middle Space thumb. The Space position sends `)` on the Sym layer.
+- `<`, `>` and `"`: hold Shift and tap `,`, `.` and `'` respectively. The diagram and HUD now show these shifted symbols above their base keys. This assumes a macOS U.S. or ABC input source.
+
 ## Diagrams
 
 - [Nav and Mouse side-by-side](draw/miryoku-nav-mouse.png)
@@ -83,6 +89,6 @@ Miryoku ZMK is vendored from upstream commit `559aa4beae75cb3206ab411b7da2adb966
 
 The main alphabet, modifiers and layer mapping are intended to be understandable and editable through normal ZMK source. This is not an Oryx import. GitHub Actions is configured to build both halves, but no remote was created or workflow run. For a local west workspace, copy `config/` into a **separate** workspace before `west init -l config`; the repo's `zephyr/` folder contains the custom ZMK module.
 
-Upstream's QWERTY Extra and plain Colemak-DH Tap layers are preserved as alternatives, with the same modifier order where applicable and Escape replacing Delete. They can be activated through guarded double taps. The Tap layer removes dual-function holds and can require a keyboard reset to return to Base. Bootloader access requires a guarded double tap in this configuration.
+The QWERTY Extra layer and its activation keys are removed. An unreachable `Unused` placeholder preserves the other layers' numeric IDs for the HUD; it has no typing bindings, though the two outer pinky switches still map to Hyper and Meh. The plain Colemak-DH Tap layer remains available through a guarded double tap; it removes dual-function holds and can require a keyboard reset to return to Base. Bootloader access requires a guarded double tap in this configuration.
 
 See `VALIDATION.md` for tested and untested behavior. Original sources: https://github.com/manna-harbour/miryoku and https://github.com/manna-harbour/miryoku_zmk.

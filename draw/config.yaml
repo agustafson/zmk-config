@@ -108,7 +108,6 @@ parse_config:
     '&mkp MB2': Right click
     '&mkp MB3': Middle click
     '&u_to_U_BASE': Base 2×
-    '&u_to_U_EXTRA': Extra 2×
     '&u_to_U_TAP': Tap 2×
     '&u_to_U_NAV': Lock Nav 2×
     '&u_to_U_MOUSE': Lock Mouse 2×

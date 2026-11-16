@@ -1,0 +1,14 @@
+diff --git a/host/macos/panel.py b/host/macos/panel.py
+index fd96779..3945168 100644
+--- a/host/macos/panel.py
++++ b/host/macos/panel.py
+@@ -339,7 +339,8 @@ class Host:
+         def emit(msg):
+             AppHelper.callAfter(self.deliver, msg)
+             self.socket.send(msg)
+-        self.feed = hudfeed.Feed(emit, log=log).start()
++        # Layer-only HUD: do not open the HID key reader or persist sessions.
++        self.feed = hudfeed.Feed(emit, log=log, keys=False, sessions=False).start()
+         hub.on_inject, hub.sessions = self.feed.resync, self.feed.sessions
+         self.socket.start()
+         # Width from the config (hud.width), whether or not its keymap converts; the height follows

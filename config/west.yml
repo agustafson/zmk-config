@@ -34,6 +34,11 @@ manifest:
       revision: 4dd95d7840eb3d5a3f59bb29fbf1ab054715ef85 # main (2026-10-19)
       import: app/west.yml
 
+    # Layer-state transport for the HUD. Keep in sync with the host patch in hud/.
+    - name: zmk-layer-hud
+      url: https://github.com/rafaelromao/zmk-layer-hud
+      revision: ddf52fb44a29fd7de2b260a465604c016b934458 # v1.2.0
+
     # Avoid downloading GBs of unused Zephyr modules. Remove this section to
     # restore the default (needed for less common hardware).
     - name: zephyr

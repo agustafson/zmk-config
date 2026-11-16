@@ -15,6 +15,15 @@ subprocess.run([sys.executable,'-m','keymap_drawer','-c','draw/config.yaml','par
 data=yaml.safe_load((root/'draw/keymap.yaml').read_text())
 assert all(len(keys)==38 for keys in data['layers'].values())
 assert [c['p'] for c in data['combos']]==[[2,3],[1,2,3]]
+# keymap-drawer does not infer US-layout shifted characters from &kp or hold-taps.
+# Display them explicitly, while retaining the actual tap and hold bindings.
+shifted={'Base':{9:'"',28:'<',29:'>',30:'?'},
+         'Num':{0:'{',1:'&',2:'*',3:'(',4:'}',10:':',11:'$',12:'%',13:'^',14:'+',
+                21:'~',22:'!',23:'@',24:'#',25:'|',32:'>',33:')',34:'_'}}
+for layer, keys in shifted.items():
+ for pos, symbol in keys.items():
+  key=data['layers'][layer][pos]
+  data['layers'][layer][pos]={**(key if isinstance(key,dict) else {'t':key}),'s':symbol}
 data['layout']={'qmk_info_json':'draw/totem-layout.json'}
 held={'Nav':(33,'Nav'), 'Mouse':(34,'Mouse'), 'Media':(32,'Media'), 'Num':(36,'Num'), 'Sym':(35,'Sym'), 'Fun':(37,'Fun')}
 for layer,(pos,name) in held.items(): data['layers'][layer][pos]={'t':name,'type':'held'}

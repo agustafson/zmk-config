@@ -22,6 +22,8 @@ The extra left pinky is Hyper (Cmd+Ctrl+Option+Shift); the extra right pinky is 
 
 F+P sends a backtick. W+F+P types the Raycast snippet trigger `;;fence` and does not itself send Enter. See [MIRYOKU.md](MIRYOKU.md) for configuration and testing, and [the full layer diagram](draw/miryoku-layers.png).
 
+For the optional, layer-only on-screen overlay, see the [ZMK Layer HUD setup](hud/README.md). The firmware build includes its layer signal; the Mac app requires the documented pinned source and privacy patch.
+
 ## Build and flash the Totem
 
 These instructions are for the **default Miryoku configuration**, a Mac and a wireless Totem with a XIAO nRF52840 in each half. This config assumes the original Totem matrix and left-central wiring; the controller model is confirmed, but the purchased board's wiring has not yet been verified. Check the seller's wiring or source against `config/boards/shields/totem/` before flashing.
@@ -48,7 +50,7 @@ docker run --rm \
     west init -l /workspace/config
     west update --fetch-opt=--filter=tree:0
     west zephyr-export
-    west build -s zmk/app -d /workspace/build-left -b xiao_ble//zmk -- \
+    west build -s zmk/app -d /workspace/build-left -b xiao_ble//zmk -S layer-hud-usb-uart -- \
       -DSHIELD=totem_left -DZMK_CONFIG=/workspace/config -DZMK_EXTRA_MODULES=/repo
     west build -s zmk/app -d /workspace/build-right -b xiao_ble//zmk -- \
       -DSHIELD=totem_right -DZMK_CONFIG=/workspace/config -DZMK_EXTRA_MODULES=/repo

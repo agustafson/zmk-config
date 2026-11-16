@@ -11,7 +11,8 @@ layers:
   - L
   - U
   - Y
-  - ''''
+  - t: ''''
+    s: '"'
   - t: A
     h: Ctrl
   - t: R
@@ -41,11 +42,14 @@ layers:
   - V
   - K
   - H
-  - ','
+  - t: ','
+    s: <
   - t: .
     h: Opt
+    s: '>'
   - t: /
     h: Button
+    s: '?'
   - t: Meh
     h: 3 mods
   - t: Esc
@@ -60,65 +64,47 @@ layers:
     h: Num
   - t: Esc
     h: Fun
-  Extra:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - t: A
-    h: Ctrl
-  - t: S
-    h: Opt
-  - t: D
-    h: Shift
-  - t: F
-    h: Cmd
-  - G
-  - H
-  - t: J
-    h: Cmd
-  - t: K
-    h: Shift
-  - t: L
-    h: Opt
-  - t: ''''
-    h: Ctrl
+  Unused:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - t: Hyper
     h: 4 mods
-  - t: Z
-    h: Button
-  - t: X
-    h: Opt
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - t: .
-    h: Opt
-  - t: /
-    h: Button
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - t: Meh
     h: 3 mods
-  - t: Esc
-    h: Media
-  - t: Space
-    h: Nav
-  - t: Tab
-    h: Mouse
-  - t: Enter
-    h: Sym
-  - t: Bspc
-    h: Num
-  - t: Esc
-    h: Fun
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   Tap:
   - Q
   - W
@@ -205,7 +191,7 @@ layers:
   Nav:
   - Boot 2×
   - Tap 2×
-  - Extra 2×
+  - ''
   - Base 2×
   - '`'
   - PgUp
@@ -248,7 +234,7 @@ layers:
   Mouse:
   - Boot 2×
   - Tap 2×
-  - Extra 2×
+  - ''
   - Base 2×
   - ''
   - Scroll Up
@@ -290,7 +276,7 @@ layers:
   Media:
   - Boot 2×
   - Tap 2×
-  - Extra 2×
+  - ''
   - Base 2×
   - ''
   - RGB TOG
@@ -339,21 +325,31 @@ layers:
   - Play/Pause
   - Mute
   Num:
-  - '['
-  - '7'
-  - '8'
-  - '9'
-  - ']'
+  - t: '['
+    s: '{'
+  - t: '7'
+    s: '&'
+  - t: '8'
+    s: '*'
+  - t: '9'
+    s: (
+  - t: ']'
+    s: '}'
   - ''
   - Base 2×
-  - Extra 2×
+  - ''
   - Tap 2×
   - Boot 2×
-  - ;
-  - '4'
-  - '5'
-  - '6'
-  - '='
+  - t: ;
+    s: ':'
+  - t: '4'
+    s: $
+  - t: '5'
+    s: '%'
+  - t: '6'
+    s: ^
+  - t: '='
+    s: +
   - ''
   - Cmd
   - Shift
@@ -361,11 +357,16 @@ layers:
   - Ctrl
   - t: Hyper
     h: 4 mods
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - \
+  - t: '`'
+    s: '~'
+  - t: '1'
+    s: '!'
+  - t: '2'
+    s: '@'
+  - t: '3'
+    s: '#'
+  - t: \
+    s: '|'
   - ''
   - Lock Num 2×
   - Lock Nav 2×
@@ -373,9 +374,12 @@ layers:
   - ''
   - t: Meh
     h: 3 mods
-  - .
-  - '0'
-  - '-'
+  - t: .
+    s: '>'
+  - t: '0'
+    s: )
+  - t: '-'
+    s: _
   - ''
   - t: Num
     type: held
@@ -388,7 +392,7 @@ layers:
   - '}'
   - ''
   - Base 2×
-  - Extra 2×
+  - ''
   - Tap 2×
   - Boot 2×
   - ':'
@@ -430,7 +434,7 @@ layers:
   - '`'
   - ''
   - Base 2×
-  - Extra 2×
+  - ''
   - Tap 2×
   - Boot 2×
   - F11

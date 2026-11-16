@@ -2,5 +2,6 @@
 include:
   - board: xiao_ble//zmk
     shield: totem_left
+    snippet: layer-hud-usb-uart
   - board: xiao_ble//zmk
     shield: totem_right

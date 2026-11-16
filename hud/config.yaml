@@ -1,0 +1,25 @@
+# ZMK Layer HUD v1.2.0, using this repository's generated Totem drawing.
+# The layer-only host patch is required as well; see hud/README.md.
+keymap: ~/dev/zmk-config/draw/keymap.yaml
+drawer_config: ~/dev/zmk-config/draw/config.yaml
+
+# Numeric IDs mirror the custom layer list in config/miryoku/custom_config.h.
+layers:
+  map:
+    0: {drawer: Base}
+    1: {drawer: Unused}
+    2: {drawer: Tap}
+    3: {drawer: Button}
+    4: {drawer: Nav}
+    5: {drawer: Mouse}
+    6: {drawer: Media}
+    7: {drawer: Num}
+    8: {drawer: Sym}
+    9: {drawer: Fun}
+
+hud:
+  opacity: 85
+  stats_bar: 0
+
+feed:
+  sessions: 0

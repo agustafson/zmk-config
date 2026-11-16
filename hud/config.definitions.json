@@ -1,0 +1,3835 @@
+{
+ "version": 1,
+ "sources": {
+  "drawing": "~/dev/zmk-config/draw/keymap.yaml"
+ },
+ "source": "keymap.yaml",
+ "drawing": {
+  "layout": {
+   "width": 850.6161876998154,
+   "height": 309.5127113059642,
+   "keys": [
+    {
+     "x": 77.51966846699202,
+     "y": 113.05913785102533,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -10.0
+    },
+    {
+     "x": 144.04816205650044,
+     "y": 61.881953181264834,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -4.0
+    },
+    {
+     "x": 211.8640938499077,
+     "y": 28.0,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 271.1680938499077,
+     "y": 55.775999999999996,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 330.41609384990767,
+     "y": 64.736,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 520.2560938499078,
+     "y": 64.736,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 579.5600938499077,
+     "y": 55.775999999999996,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 638.8640938499078,
+     "y": 28.0,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 706.4561620565004,
+     "y": 61.93404681873515,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 4.0
+    },
+    {
+     "x": 773.2085192328234,
+     "y": 113.11513785102534,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 10.0
+    },
+    {
+     "x": 87.26366846699202,
+     "y": 168.21913785102535,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -10.0
+    },
+    {
+     "x": 147.912025643315,
+     "y": 117.71004681873518,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -4.0
+    },
+    {
+     "x": 211.8640938499077,
+     "y": 84.0,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 271.1680938499077,
+     "y": 111.776,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 330.41609384990767,
+     "y": 120.73599999999999,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 520.2560938499078,
+     "y": 121.016,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 579.5600938499077,
+     "y": 111.776,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 638.8640938499078,
+     "y": 84.0,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 702.536025643315,
+     "y": 117.76995318126481,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 4.0
+    },
+    {
+     "x": 763.5205192328234,
+     "y": 168.27513785102533,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 10.0
+    },
+    {
+     "x": 34.06366846699204,
+     "y": 208.9311378510253,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -10.0
+    },
+    {
+     "x": 97.00851923282337,
+     "y": 223.38886214897465,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -10.0
+    },
+    {
+     "x": 151.83216205650047,
+     "y": 173.60195318126483,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -4.0
+    },
+    {
+     "x": 211.8640938499077,
+     "y": 140.0,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 271.1680938499077,
+     "y": 167.776,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 330.41609384990767,
+     "y": 176.73600000000002,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 520.2560938499078,
+     "y": 177.016,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 579.5600938499077,
+     "y": 167.776,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 638.8640938499078,
+     "y": 140.0,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 698.6721620565004,
+     "y": 173.65404681873517,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 4.0
+    },
+    {
+     "x": 753.7765192328234,
+     "y": 223.43513785102536,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 10.0
+    },
+    {
+     "x": 816.5525192328234,
+     "y": 208.93113785102534,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 10.0
+    },
+    {
+     "x": 254.5920938499077,
+     "y": 235.98400000000004,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    },
+    {
+     "x": 320.22313977304384,
+     "y": 245.17524693326288,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 15.0
+    },
+    {
+     "x": 380.98034256121366,
+     "y": 270.43799999999993,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 30.0
+    },
+    {
+     "x": 469.7963425612136,
+     "y": 270.41,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -30.0
+    },
+    {
+     "x": 530.5610479267716,
+     "y": 245.17524693326288,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": -15.0
+    },
+    {
+     "x": 596.1360938499078,
+     "y": 235.98400000000004,
+     "w": 59.303999999999995,
+     "h": 56.0,
+     "r": 0
+    }
+   ]
+  },
+  "layer_order": [
+   "Base",
+   "Unused",
+   "Tap",
+   "Button",
+   "Nav",
+   "Mouse",
+   "Media",
+   "Num",
+   "Sym",
+   "Fun"
+  ],
+  "layers": {
+   "Base": [
+    {
+     "tap": "Q",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "W",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "P",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "B",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "J",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "L",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "U",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Y",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "'",
+     "hold": "",
+     "shifted": "\"",
+     "type": "key"
+    },
+    {
+     "tap": "A",
+     "hold": "Ctrl",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "R",
+     "hold": "Opt",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "S",
+     "hold": "Shift",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "T",
+     "hold": "Cmd",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "G",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "M",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "N",
+     "hold": "Cmd",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "E",
+     "hold": "Shift",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "I",
+     "hold": "Opt",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "O",
+     "hold": "Ctrl",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Z",
+     "hold": "Button",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "X",
+     "hold": "Opt",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "C",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "D",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "V",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "K",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "H",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": ",",
+     "hold": "",
+     "shifted": "<",
+     "type": "key"
+    },
+    {
+     "tap": ".",
+     "hold": "Opt",
+     "shifted": ">",
+     "type": "key"
+    },
+    {
+     "tap": "/",
+     "hold": "Button",
+     "shifted": "?",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Esc",
+     "hold": "Media",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Space",
+     "hold": "Nav",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tab",
+     "hold": "Mouse",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Enter",
+     "hold": "Sym",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Bspc",
+     "hold": "Num",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Esc",
+     "hold": "Fun",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Unused": [
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Tap": [
+    {
+     "tap": "Q",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "W",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "P",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "B",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "J",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "L",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "U",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Y",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "'",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "A",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "R",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "S",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "T",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "G",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "M",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "N",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "E",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "I",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "O",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Z",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "X",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "C",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "D",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "V",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "K",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "H",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": ",",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": ".",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "/",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Esc",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Space",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tab",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Enter",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Bspc",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Esc",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Button": [
+    {
+     "tap": "Undo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cut",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Copy",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Paste",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Redo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Redo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Paste",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Copy",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cut",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Undo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ctrl",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Shift",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cmd",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cmd",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Shift",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ctrl",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Undo",
+     "hold": "",
+     "shifted": "",
+     "type": "held"
+    },
+    {
+     "tap": "Cut",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Copy",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Paste",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Redo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Redo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Paste",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Copy",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cut",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Undo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Middle click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Left click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Right click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Right click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Left click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Middle click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Nav": [
+    {
+     "tap": "Boot 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tap 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Base 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "`",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "PgUp",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Line start",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Up",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Line end",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ins",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ctrl",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Shift",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cmd",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "PgDn",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Left",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Down",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Right",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Caps Word",
+     "hold": "",
+     "shifted": "CAPS",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Num 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Nav 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Redo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Paste",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Copy",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cut",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Undo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Nav",
+     "hold": "",
+     "shifted": "",
+     "type": "held"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Enter",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Bspc",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Esc",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Mouse": [
+    {
+     "tap": "Boot 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tap 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Base 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Scroll Up",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Scroll Left",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Mouse Up",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Scroll Right",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ctrl",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Shift",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cmd",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Scroll Down",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Mouse Left",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Mouse Down",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Mouse Right",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Sym 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Mouse 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Redo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Paste",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Copy",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cut",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Undo",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Mouse",
+     "hold": "",
+     "shifted": "",
+     "type": "held"
+    },
+    {
+     "tap": "Right click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Left click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Middle click",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Media": [
+    {
+     "tap": "Boot 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tap 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Base 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "RGB TOG",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "RGB EFF",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Vol +",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "RGB HUI",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "RGB SAI",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ctrl",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Shift",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cmd",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "EP TOG",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Prev track",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Vol -",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Next track",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "RGB BRI",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Fun 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Media 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "OUT TOG",
+     "hold": "",
+     "shifted": "OUT USB",
+     "type": "key"
+    },
+    {
+     "tap": "BT",
+     "hold": "0",
+     "shifted": "&u_macro_u_bt_sel_0",
+     "type": "key"
+    },
+    {
+     "tap": "BT",
+     "hold": "1",
+     "shifted": "&u_macro_u_bt_sel_1",
+     "type": "key"
+    },
+    {
+     "tap": "BT",
+     "hold": "2",
+     "shifted": "&u_macro_u_bt_sel_2",
+     "type": "key"
+    },
+    {
+     "tap": "BT",
+     "hold": "3",
+     "shifted": "&u_macro_u_bt_sel_3",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Media",
+     "hold": "",
+     "shifted": "",
+     "type": "held"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "STOP",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Play/Pause",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Mute",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Num": [
+    {
+     "tap": "[",
+     "hold": "",
+     "shifted": "{",
+     "type": "key"
+    },
+    {
+     "tap": "7",
+     "hold": "",
+     "shifted": "&",
+     "type": "key"
+    },
+    {
+     "tap": "8",
+     "hold": "",
+     "shifted": "*",
+     "type": "key"
+    },
+    {
+     "tap": "9",
+     "hold": "",
+     "shifted": "(",
+     "type": "key"
+    },
+    {
+     "tap": "]",
+     "hold": "",
+     "shifted": "}",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Base 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tap 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Boot 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": ";",
+     "hold": "",
+     "shifted": ":",
+     "type": "key"
+    },
+    {
+     "tap": "4",
+     "hold": "",
+     "shifted": "$",
+     "type": "key"
+    },
+    {
+     "tap": "5",
+     "hold": "",
+     "shifted": "%",
+     "type": "key"
+    },
+    {
+     "tap": "6",
+     "hold": "",
+     "shifted": "^",
+     "type": "key"
+    },
+    {
+     "tap": "=",
+     "hold": "",
+     "shifted": "+",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cmd",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Shift",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ctrl",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "`",
+     "hold": "",
+     "shifted": "~",
+     "type": "key"
+    },
+    {
+     "tap": "1",
+     "hold": "",
+     "shifted": "!",
+     "type": "key"
+    },
+    {
+     "tap": "2",
+     "hold": "",
+     "shifted": "@",
+     "type": "key"
+    },
+    {
+     "tap": "3",
+     "hold": "",
+     "shifted": "#",
+     "type": "key"
+    },
+    {
+     "tap": "\\",
+     "hold": "",
+     "shifted": "|",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Num 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Nav 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": ".",
+     "hold": "",
+     "shifted": ">",
+     "type": "key"
+    },
+    {
+     "tap": "0",
+     "hold": "",
+     "shifted": ")",
+     "type": "key"
+    },
+    {
+     "tap": "-",
+     "hold": "",
+     "shifted": "_",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Num",
+     "hold": "",
+     "shifted": "",
+     "type": "held"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Sym": [
+    {
+     "tap": "{",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "&",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "*",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "(",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "}",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Base 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tap 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Boot 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": ":",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "$",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "%",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "^",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "+",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cmd",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Shift",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ctrl",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "~",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "!",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "@",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "#",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "|",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Sym 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Mouse 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "(",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": ")",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "_",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Sym",
+     "hold": "",
+     "shifted": "",
+     "type": "held"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    }
+   ],
+   "Fun": [
+    {
+     "tap": "F12",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F7",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F8",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F9",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "`",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Base 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tap 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Boot 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F11",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F4",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F5",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F6",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Fence",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Cmd",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Shift",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Ctrl",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Hyper",
+     "hold": "4 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F10",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F1",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F2",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "F3",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Fun 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Lock Media 2×",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Opt",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Meh",
+     "hold": "3 mods",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "APP",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Space",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Tab",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    {
+     "tap": "Fun",
+     "hold": "",
+     "shifted": "",
+     "type": "held"
+    }
+   ]
+  },
+  "combos": [
+   {
+    "positions": [
+     2,
+     3
+    ],
+    "key": {
+     "tap": "`",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    "layers": [
+     "Base"
+    ]
+   },
+   {
+    "positions": [
+     1,
+     2,
+     3
+    ],
+    "key": {
+     "tap": "Fence",
+     "hold": "",
+     "shifted": "",
+     "type": "key"
+    },
+    "layers": [
+     "Base"
+    ]
+   }
+  ],
+  "glyphs": {},
+  "missing_glyphs": [],
+  "sticky_label": "sticky"
+ },
+ "keymap_drawer": {
+  "layout": [
+   {
+    "x": 0.8547797940534289,
+    "y": 1.5189131759111665,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -10.0,
+    "rx": 1.3842797940534288,
+    "ry": 2.0189131759111665
+   },
+   {
+    "x": 2.0427886081517936,
+    "y": 0.605034878236872,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -4.0,
+    "rx": 2.5722886081517937,
+    "ry": 1.105034878236872
+   },
+   {
+    "x": 3.253787390176923,
+    "y": 0.0,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 4.312787390176923,
+    "y": 0.4959999999999999,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 5.370787390176923,
+    "y": 0.6560000000000001,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 8.760787390176924,
+    "y": 0.6560000000000001,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 9.819787390176923,
+    "y": 0.4959999999999999,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 10.878787390176925,
+    "y": 0.0,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 12.085788608151791,
+    "y": 0.6059651217631277,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 4.0,
+    "rx": 12.615288608151792,
+    "ry": 1.1059651217631277
+   },
+   {
+    "x": 13.277794986300417,
+    "y": 1.5199131759111668,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 10.0,
+    "rx": 13.807294986300418,
+    "ry": 2.019913175911167
+   },
+   {
+    "x": 1.028779794053429,
+    "y": 2.503913175911167,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -10.0,
+    "rx": 1.5582797940534288,
+    "ry": 3.003913175911167
+   },
+   {
+    "x": 2.1117861722020534,
+    "y": 1.6019651217631283,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -4.0,
+    "rx": 2.6412861722020535,
+    "ry": 2.1019651217631283
+   },
+   {
+    "x": 3.253787390176923,
+    "y": 1.0,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 4.312787390176923,
+    "y": 1.496,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 5.370787390176923,
+    "y": 1.6559999999999997,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 8.760787390176924,
+    "y": 1.661,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 9.819787390176923,
+    "y": 1.496,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 10.878787390176925,
+    "y": 1.0,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 12.015786172202054,
+    "y": 1.6030348782368717,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 4.0,
+    "rx": 12.545286172202054,
+    "ry": 2.1030348782368717
+   },
+   {
+    "x": 13.104794986300417,
+    "y": 2.5049131759111667,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 10.0,
+    "rx": 13.634294986300418,
+    "ry": 3.0049131759111667
+   },
+   {
+    "x": 0.07877979405342939,
+    "y": 3.2309131759111662,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -10.0,
+    "rx": 0.6082797940534294,
+    "ry": 3.7309131759111662
+   },
+   {
+    "x": 1.2027949863004173,
+    "y": 3.489086824088833,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -10.0,
+    "rx": 1.7322949863004173,
+    "ry": 3.989086824088833
+   },
+   {
+    "x": 2.181788608151794,
+    "y": 2.600034878236872,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -4.0,
+    "rx": 2.711288608151794,
+    "ry": 3.100034878236872
+   },
+   {
+    "x": 3.253787390176923,
+    "y": 2.0,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 4.312787390176923,
+    "y": 2.496,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 5.370787390176923,
+    "y": 2.656,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 8.760787390176924,
+    "y": 2.661,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 9.819787390176923,
+    "y": 2.496,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 10.878787390176925,
+    "y": 2.0,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 11.946788608151792,
+    "y": 2.600965121763128,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 4.0,
+    "rx": 12.476288608151792,
+    "ry": 3.100965121763128
+   },
+   {
+    "x": 12.930794986300416,
+    "y": 3.489913175911167,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 10.0,
+    "rx": 13.460294986300417,
+    "ry": 3.989913175911167
+   },
+   {
+    "x": 14.051794986300418,
+    "y": 3.2309131759111667,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 10.0,
+    "rx": 14.581294986300419,
+    "ry": 3.7309131759111667
+   },
+   {
+    "x": 4.0167873901769235,
+    "y": 3.7140000000000004,
+    "w": 1.059,
+    "h": 1.0
+   },
+   {
+    "x": 5.188770353090069,
+    "y": 3.8781294095225514,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 15.0,
+    "rx": 5.718270353090069,
+    "ry": 4.378129409522551
+   },
+   {
+    "x": 6.273720402878816,
+    "y": 4.329249999999999,
+    "w": 1.059,
+    "h": 1.0,
+    "r": 30.0,
+    "rx": 6.803220402878815,
+    "ry": 4.829249999999999
+   },
+   {
+    "x": 7.859720402878815,
+    "y": 4.32875,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -30.0,
+    "rx": 8.389220402878815,
+    "ry": 4.82875
+   },
+   {
+    "x": 8.944804427263778,
+    "y": 3.8781294095225514,
+    "w": 1.059,
+    "h": 1.0,
+    "r": -15.0,
+    "rx": 9.474304427263778,
+    "ry": 4.378129409522551
+   },
+   {
+    "x": 10.115787390176923,
+    "y": 3.7140000000000004,
+    "w": 1.059,
+    "h": 1.0
+   }
+  ],
+  "layers": {
+   "Base": [
+    "Q",
+    "W",
+    "F",
+    "P",
+    "B",
+    "J",
+    "L",
+    "U",
+    "Y",
+    {
+     "t": "'",
+     "s": "\""
+    },
+    {
+     "t": "A",
+     "h": "Ctrl"
+    },
+    {
+     "t": "R",
+     "h": "Opt"
+    },
+    {
+     "t": "S",
+     "h": "Shift"
+    },
+    {
+     "t": "T",
+     "h": "Cmd"
+    },
+    "G",
+    "M",
+    {
+     "t": "N",
+     "h": "Cmd"
+    },
+    {
+     "t": "E",
+     "h": "Shift"
+    },
+    {
+     "t": "I",
+     "h": "Opt"
+    },
+    {
+     "t": "O",
+     "h": "Ctrl"
+    },
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    {
+     "t": "Z",
+     "h": "Button"
+    },
+    {
+     "t": "X",
+     "h": "Opt"
+    },
+    "C",
+    "D",
+    "V",
+    "K",
+    "H",
+    {
+     "t": ",",
+     "s": "<"
+    },
+    {
+     "t": ".",
+     "h": "Opt",
+     "s": ">"
+    },
+    {
+     "t": "/",
+     "h": "Button",
+     "s": "?"
+    },
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    {
+     "t": "Esc",
+     "h": "Media"
+    },
+    {
+     "t": "Space",
+     "h": "Nav"
+    },
+    {
+     "t": "Tab",
+     "h": "Mouse"
+    },
+    {
+     "t": "Enter",
+     "h": "Sym"
+    },
+    {
+     "t": "Bspc",
+     "h": "Num"
+    },
+    {
+     "t": "Esc",
+     "h": "Fun"
+    }
+   ],
+   "Unused": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "Tap": [
+    "Q",
+    "W",
+    "F",
+    "P",
+    "B",
+    "J",
+    "L",
+    "U",
+    "Y",
+    "'",
+    "A",
+    "R",
+    "S",
+    "T",
+    "G",
+    "M",
+    "N",
+    "E",
+    "I",
+    "O",
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    "Z",
+    "X",
+    "C",
+    "D",
+    "V",
+    "K",
+    "H",
+    ",",
+    ".",
+    "/",
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    "Esc",
+    "Space",
+    "Tab",
+    "Enter",
+    "Bspc",
+    "Esc"
+   ],
+   "Button": [
+    "Undo",
+    "Cut",
+    "Copy",
+    "Paste",
+    "Redo",
+    "Redo",
+    "Paste",
+    "Copy",
+    "Cut",
+    "Undo",
+    "Ctrl",
+    "Opt",
+    "Shift",
+    "Cmd",
+    "",
+    "",
+    "Cmd",
+    "Shift",
+    "Opt",
+    "Ctrl",
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    {
+     "t": "Undo",
+     "type": "held"
+    },
+    "Cut",
+    "Copy",
+    "Paste",
+    "Redo",
+    "Redo",
+    "Paste",
+    "Copy",
+    "Cut",
+    "Undo",
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    "Middle click",
+    "Left click",
+    "Right click",
+    "Right click",
+    "Left click",
+    "Middle click"
+   ],
+   "Nav": [
+    "Boot 2×",
+    "Tap 2×",
+    "",
+    "Base 2×",
+    "`",
+    "PgUp",
+    "Line start",
+    "Up",
+    "Line end",
+    "Ins",
+    "Ctrl",
+    "Opt",
+    "Shift",
+    "Cmd",
+    "",
+    "PgDn",
+    "Left",
+    "Down",
+    "Right",
+    {
+     "t": "Caps Word",
+     "s": "CAPS"
+    },
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    "",
+    "Opt",
+    "Lock Num 2×",
+    "Lock Nav 2×",
+    "",
+    "Redo",
+    "Paste",
+    "Copy",
+    "Cut",
+    "Undo",
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    "",
+    {
+     "t": "Nav",
+     "type": "held"
+    },
+    "",
+    "Enter",
+    "Bspc",
+    "Esc"
+   ],
+   "Mouse": [
+    "Boot 2×",
+    "Tap 2×",
+    "",
+    "Base 2×",
+    "",
+    "Scroll Up",
+    "Scroll Left",
+    "Mouse Up",
+    "Scroll Right",
+    "",
+    "Ctrl",
+    "Opt",
+    "Shift",
+    "Cmd",
+    "",
+    "Scroll Down",
+    "Mouse Left",
+    "Mouse Down",
+    "Mouse Right",
+    "",
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    "",
+    "Opt",
+    "Lock Sym 2×",
+    "Lock Mouse 2×",
+    "",
+    "Redo",
+    "Paste",
+    "Copy",
+    "Cut",
+    "Undo",
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    "",
+    "",
+    {
+     "t": "Mouse",
+     "type": "held"
+    },
+    "Right click",
+    "Left click",
+    "Middle click"
+   ],
+   "Media": [
+    "Boot 2×",
+    "Tap 2×",
+    "",
+    "Base 2×",
+    "",
+    "RGB TOG",
+    "RGB EFF",
+    "Vol +",
+    "RGB HUI",
+    "RGB SAI",
+    "Ctrl",
+    "Opt",
+    "Shift",
+    "Cmd",
+    "",
+    "EP TOG",
+    "Prev track",
+    "Vol -",
+    "Next track",
+    "RGB BRI",
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    "",
+    "Opt",
+    "Lock Fun 2×",
+    "Lock Media 2×",
+    "",
+    {
+     "t": "OUT TOG",
+     "s": "OUT USB"
+    },
+    {
+     "t": "BT",
+     "h": "0",
+     "s": "&u_macro_u_bt_sel_0"
+    },
+    {
+     "t": "BT",
+     "h": "1",
+     "s": "&u_macro_u_bt_sel_1"
+    },
+    {
+     "t": "BT",
+     "h": "2",
+     "s": "&u_macro_u_bt_sel_2"
+    },
+    {
+     "t": "BT",
+     "h": "3",
+     "s": "&u_macro_u_bt_sel_3"
+    },
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    {
+     "t": "Media",
+     "type": "held"
+    },
+    "",
+    "",
+    "STOP",
+    "Play/Pause",
+    "Mute"
+   ],
+   "Num": [
+    {
+     "t": "[",
+     "s": "{"
+    },
+    {
+     "t": "7",
+     "s": "&"
+    },
+    {
+     "t": "8",
+     "s": "*"
+    },
+    {
+     "t": "9",
+     "s": "("
+    },
+    {
+     "t": "]",
+     "s": "}"
+    },
+    "",
+    "Base 2×",
+    "",
+    "Tap 2×",
+    "Boot 2×",
+    {
+     "t": ";",
+     "s": ":"
+    },
+    {
+     "t": "4",
+     "s": "$"
+    },
+    {
+     "t": "5",
+     "s": "%"
+    },
+    {
+     "t": "6",
+     "s": "^"
+    },
+    {
+     "t": "=",
+     "s": "+"
+    },
+    "",
+    "Cmd",
+    "Shift",
+    "Opt",
+    "Ctrl",
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    {
+     "t": "`",
+     "s": "~"
+    },
+    {
+     "t": "1",
+     "s": "!"
+    },
+    {
+     "t": "2",
+     "s": "@"
+    },
+    {
+     "t": "3",
+     "s": "#"
+    },
+    {
+     "t": "\\",
+     "s": "|"
+    },
+    "",
+    "Lock Num 2×",
+    "Lock Nav 2×",
+    "Opt",
+    "",
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    {
+     "t": ".",
+     "s": ">"
+    },
+    {
+     "t": "0",
+     "s": ")"
+    },
+    {
+     "t": "-",
+     "s": "_"
+    },
+    "",
+    {
+     "t": "Num",
+     "type": "held"
+    },
+    ""
+   ],
+   "Sym": [
+    "{",
+    "&",
+    "*",
+    "(",
+    "}",
+    "",
+    "Base 2×",
+    "",
+    "Tap 2×",
+    "Boot 2×",
+    ":",
+    "$",
+    "%",
+    "^",
+    "+",
+    "",
+    "Cmd",
+    "Shift",
+    "Opt",
+    "Ctrl",
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    "~",
+    "!",
+    "@",
+    "#",
+    "|",
+    "",
+    "Lock Sym 2×",
+    "Lock Mouse 2×",
+    "Opt",
+    "",
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    "(",
+    ")",
+    "_",
+    {
+     "t": "Sym",
+     "type": "held"
+    },
+    "",
+    ""
+   ],
+   "Fun": [
+    "F12",
+    "F7",
+    "F8",
+    "F9",
+    "`",
+    "",
+    "Base 2×",
+    "",
+    "Tap 2×",
+    "Boot 2×",
+    "F11",
+    "F4",
+    "F5",
+    "F6",
+    "Fence",
+    "",
+    "Cmd",
+    "Shift",
+    "Opt",
+    "Ctrl",
+    {
+     "t": "Hyper",
+     "h": "4 mods"
+    },
+    "F10",
+    "F1",
+    "F2",
+    "F3",
+    "",
+    "",
+    "Lock Fun 2×",
+    "Lock Media 2×",
+    "Opt",
+    "",
+    {
+     "t": "Meh",
+     "h": "3 mods"
+    },
+    "APP",
+    "Space",
+    "Tab",
+    "",
+    "",
+    {
+     "t": "Fun",
+     "type": "held"
+    }
+   ]
+  },
+  "combos": [
+   {
+    "p": [
+     2,
+     3
+    ],
+    "k": "`",
+    "l": [
+     "Base"
+    ]
+   },
+   {
+    "p": [
+     1,
+     2,
+     3
+    ],
+    "k": "Fence",
+    "l": [
+     "Base"
+    ]
+   }
+  ],
+  "draw_config": {},
+  "config": {
+   "parse_config": {
+    "zmk_additional_includes": [
+     "draw/include"
+    ],
+    "raw_binding_map": {
+     "&kp LC(LA(LS(LGUI)))": {
+      "t": "Hyper",
+      "h": "4 mods"
+     },
+     "&kp LC(LA(LSHFT))": {
+      "t": "Meh",
+      "h": "3 mods"
+     },
+     "&smart_mouse": "Mouse",
+     "&leader": "Leader",
+     "&leader_sft": "Shift+Leader",
+     "&sys_reset": "Reset",
+     "&bootloader": "Boot",
+     "&caps_word": "Caps Word",
+     "&kp LG(C)": "Copy",
+     "&kp LG(V)": "Paste",
+     "&kp LG(X)": "Cut",
+     "&kp LG(Z)": "Undo",
+     "&direct_fence": "Fence",
+     "&kp LG(W)": "Close",
+     "&kp LG(LS(TAB))": "Prev App",
+     "&swapper": "Next App",
+     "&kp LC(LEFT)": "Prev Space",
+     "&kp LC(RIGHT)": "Next Space",
+     "&kp LC(UP)": "Mission Ctrl",
+     "&kp LG(SPACE)": "Spotlight",
+     "&kp LG(GRAVE)": "Next Window",
+     "&mt_home": {
+      "t": "Left",
+      "h": "Line start"
+     },
+     "&mt_end": {
+      "t": "Right",
+      "h": "Line end"
+     },
+     "&mt LG(UP) UP": {
+      "t": "Up",
+      "h": "Doc start"
+     },
+     "&mt LG(DOWN) DOWN": {
+      "t": "Down",
+      "h": "Doc end"
+     },
+     "&mt LA(BSPC) BSPC": {
+      "t": "Bspc",
+      "h": "Del word"
+     },
+     "&mt LA(DEL) DEL": {
+      "t": "Del",
+      "h": "Del word"
+     },
+     "&kp LA(LEFT)": "Prev Word",
+     "&kp LA(RIGHT)": "Next Word",
+     "&lt_spc": {
+      "t": "Space",
+      "h": "Nav",
+      "s": "Sentence"
+     },
+     "&smart_num": {
+      "t": "Numword",
+      "h": "Num"
+     },
+     "&magic_shift": {
+      "t": "Magic",
+      "h": "Shift",
+      "s": "Caps Word"
+     },
+     "&mmv MOVE_UP": "Mouse Up",
+     "&mmv MOVE_DOWN": "Mouse Down",
+     "&mmv MOVE_LEFT": "Mouse Left",
+     "&mmv MOVE_RIGHT": "Mouse Right",
+     "&msc SCRL_UP": "Scroll Up",
+     "&msc SCRL_DOWN": "Scroll Down",
+     "&msc SCRL_LEFT": "Scroll Left",
+     "&msc SCRL_RIGHT": "Scroll Right",
+     "&mkp LCLK": "Click 1",
+     "&mkp RCLK": "Click 2",
+     "&mkp MCLK": "Click 3",
+     "&mkp MB4": "Click 4",
+     "&mkp MB5": "Click 5",
+     "&hm_combo_tab": {
+      "t": "Tab",
+      "h": "Shift+Opt"
+     },
+     "&hm_combo_shift_cmd": {
+      "h": "Shift+Cmd"
+     },
+     "&hm_combo_equal": {
+      "t": "=",
+      "h": "Opt+Cmd"
+     },
+     "&hm_combo_shift_opt_cmd": {
+      "h": "S+Opt+Cmd"
+     },
+     "&hm_combo_prcnt": {
+      "t": "%",
+      "h": "Ctrl+Opt"
+     },
+     "&hm_combo_lpar": {
+      "t": "(",
+      "h": "Shift+Cmd",
+      "s": "<"
+     },
+     "&hm_combo_rpar": {
+      "t": ")",
+      "h": "Shift+Opt",
+      "s": ">"
+     },
+     "&hm_combo_minus": {
+      "t": "-",
+      "h": "Cmd+Opt"
+     },
+     "&hm_combo_under": {
+      "t": "_",
+      "h": "S+Opt+Cmd"
+     },
+     "&hm_combo_caret": {
+      "t": "^",
+      "h": "Opt+Ctrl"
+     },
+     "&kp LS(LG(Z))": "Redo",
+     "&kp LG(LEFT)": "Line start",
+     "&kp LG(RIGHT)": "Line end",
+     "&mkp MB1": "Left click",
+     "&mkp MB2": "Right click",
+     "&mkp MB3": "Middle click",
+     "&u_to_U_BASE": "Base 2×",
+     "&u_to_U_TAP": "Tap 2×",
+     "&u_to_U_NAV": "Lock Nav 2×",
+     "&u_to_U_MOUSE": "Lock Mouse 2×",
+     "&u_to_U_MEDIA": "Lock Media 2×",
+     "&u_to_U_NUM": "Lock Num 2×",
+     "&u_to_U_SYM": "Lock Sym 2×",
+     "&u_to_U_FUN": "Lock Fun 2×",
+     "&u_bootloader": "Boot 2×"
+    },
+    "trans_legend": {
+     "t": "",
+     "type": "trans"
+    },
+    "zmk_keycode_map": {
+     "LALT": "Opt",
+     "RALT": "Opt",
+     "LCTRL": "Ctrl",
+     "RCTRL": "Ctrl",
+     "LGUI": "Cmd",
+     "RGUI": "Cmd",
+     "LSHFT": "Shift",
+     "RSHFT": "Shift",
+     "BSPC": "Bspc",
+     "DEL": "Del",
+     "ESC": "Esc",
+     "RET": "Enter",
+     "SPACE": "Space",
+     "TAB": "Tab",
+     "PG_UP": "PgUp",
+     "PG_DN": "PgDn",
+     "INS": "Ins",
+     "HOME": "Home",
+     "END": "End",
+     "UP": "Up",
+     "DOWN": "Down",
+     "LEFT": "Left",
+     "RIGHT": "Right",
+     "K_CANCEL": "Cancel",
+     "C_MUTE": "Mute",
+     "C_PP": "Play/Pause",
+     "C_VOL_UP": "Vol +",
+     "C_VOL_DN": "Vol -",
+     "C_NEXT": "Next track",
+     "C_PREV": "Prev track",
+     "AMPERSAND": "&",
+     "AMPS": "&",
+     "APOS": "'",
+     "APOSTROPHE": "'",
+     "ASTERISK": "*",
+     "ASTRK": "*",
+     "AT": "@",
+     "AT_SIGN": "@",
+     "BACKSLASH": "\\",
+     "BSLH": "\\",
+     "CARET": "^",
+     "COLON": ":",
+     "COMMA": ",",
+     "DLLR": "$",
+     "DOLLAR": "$",
+     "DOT": ".",
+     "DOUBLE_QUOTES": "\"",
+     "DQT": "\"",
+     "EQUAL": "=",
+     "EXCL": "!",
+     "EXCLAMATION": "!",
+     "FSLH": "/",
+     "GRAVE": "`",
+     "GREATER_THAN": ">",
+     "GT": ">",
+     "HASH": "#",
+     "LBKT": "[",
+     "LBRC": "{",
+     "LEFT_BRACE": "{",
+     "LEFT_BRACKET": "[",
+     "LEFT_PARENTHESIS": "(",
+     "LESS_THAN": "<",
+     "LPAR": "(",
+     "LT": "<",
+     "MINUS": "-",
+     "NON_US_BACKSLASH": "\\",
+     "NON_US_BSLH": "|",
+     "NON_US_HASH": "#",
+     "NUHS": "#",
+     "PERCENT": "%",
+     "PERIOD": ".",
+     "PIPE": "|",
+     "PIPE2": "|",
+     "PLUS": "+",
+     "POUND": "#",
+     "PRCNT": "%",
+     "QMARK": "?",
+     "QUESTION": "?",
+     "RBKT": "]",
+     "RBRC": "}",
+     "RIGHT_BRACE": "}",
+     "RIGHT_BRACKET": "]",
+     "RIGHT_PARENTHESIS": ")",
+     "RPAR": ")",
+     "SEMI": ";",
+     "SEMICOLON": ";",
+     "SINGLE_QUOTE": "'",
+     "SLASH": "/",
+     "SQT": "'",
+     "STAR": "*",
+     "TILDE": "~",
+     "TILDE2": "~",
+     "UNDER": "_",
+     "UNDERSCORE": "_"
+    },
+    "zmk_combos": {
+     "combo_lt": {
+      "hidden": true
+     },
+     "combo_gt": {
+      "hidden": true
+     },
+     "combo_lbrc": {
+      "hidden": true
+     },
+     "combo_rbrc": {
+      "hidden": true
+     }
+    }
+   },
+   "draw_config": {
+    "append_colon_to_layer_header": false,
+    "dark_mode": false,
+    "n_columns": 2,
+    "outer_pad_w": 32,
+    "outer_pad_h": 70,
+    "inner_pad_w": 3,
+    "inner_pad_h": 3,
+    "small_pad": 5,
+    "combo_w": 58,
+    "combo_h": 34,
+    "combo_diagrams_scale": 2,
+    "footer_text": "TOTEM / Miryoku / Colemak-DH / Mac",
+    "svg_extra_style": "svg.keymap { background-color: #f4f6fa; font-family: DejaVu Sans, sans-serif; font-size: 14px; fill: #18253c; }\nrect.key { fill: #ffffff; stroke: #c6d0df; stroke-width: 1; }\ntext.label { font-size: 19px; font-weight: 700; fill: #18253c; }\ntext.hold { fill: #23699a; font-size: 10px; }\ntext.shifted { fill: #927031; font-size: 10px; }\ntext.footer { fill: #596b83; font-size: 12px; }\nrect.combo { fill: #123756; stroke: #123756; }\ntext.combo { fill: #ffffff; font-size: 13px; }\ntext.combo.hold, text.combo.shifted { fill: #dceaf6; font-size: 8px; }\nrect.held { fill: #bce5db; stroke: #429a87; }\nrect.ghost { fill: #e8edf4; stroke: #d0d9e5; }\ntext.ghost { fill: #77869a; }\npath.combo { stroke: #759cb7; stroke-width: 1.5; fill: none; }\n\ntext.label, text.footer { stroke: none; }\n"
+   }
+  }
+ }
+}

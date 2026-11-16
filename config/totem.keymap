@@ -6,6 +6,11 @@
 #include "miryoku/miryoku.dtsi"
 
 / {
+  // Only report layer state. Omitting positions prevents key-position events.
+  layer_signal {
+    compatible = "zmk,layer-signal";
+    heartbeat-ms = <2000>;
+  };
   behaviors {
     fence: fence { compatible = "custom,behavior-fence"; #binding-cells = <0>; };
     combo_fence: combo_fence { compatible = "custom,behavior-combo-fence"; #binding-cells = <0>; };
